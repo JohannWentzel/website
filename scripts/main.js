@@ -8,9 +8,9 @@ var instance = new TypeIt('#typeString', {
     breakLines: false,
     loop: true,
     lifeLike: true,
-    nextStringDelay: 5000,
+    nextStringDelay: 4000,
 });
 
-particlesJS.load('main-banner', 'particles.json', function() {
+particlesJS.load('particles', './scripts/particles.json', function() {
     console.log('callback - particles.js config loaded');
   });

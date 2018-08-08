@@ -3,7 +3,6 @@
 }
 
 .hero {
-    background-color: darkblue;
     height: 50%;    
 }
 
@@ -17,13 +16,16 @@
     font-size: 30;
 }
 
-#projects h1 {
-
-}
-
-
 .headshot {
 
     clip-path: ellipse(100px 100px);
     margin-bottom: 75px;
+}
+
+#particles {
+    position:fixed;
+    width: 100%;
+    z-index: -1;
+    background-color: darkblue;
+    height: 50%;
 }
