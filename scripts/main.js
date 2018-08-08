@@ -10,3 +10,7 @@ var instance = new TypeIt('#typeString', {
     lifeLike: true,
     nextStringDelay: 5000,
 });
+
+particlesJS.load('main-banner', 'particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
