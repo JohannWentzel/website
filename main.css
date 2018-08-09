@@ -3,29 +3,56 @@
 }
 
 .hero {
-    height: 50%;    
+    height: 600px; 
+    color:white;   
 }
 
-.hero h1 {
-    color: white;
-    font-size: 50;
+.hero h1{
+    font-size: 3.5em;
 }
+
 
 .hero p {
-    color:white;
-    font-size: 30;
+    font-size: 1.5em;
 }
 
 .headshot {
-
-    clip-path: ellipse(100px 100px);
     margin-bottom: 75px;
 }
 
 #particles {
-    position:fixed;
+    position: absolute;
     width: 100%;
     z-index: -1;
     background-color: darkblue;
-    height: 50%;
+    height: 600px;
+}
+
+@media only screen and (max-width: 480px) {
+    .btn-row {
+        margin-top: 30px;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+    .hero p {
+        font-size: 1em;
+    }
+}
+
+.button-row{
+    margin-top: 15px;
+}
+
+.btn{
+    margin-bottom: 10px;
+}
+
+.section-title{
+    margin-bottom:70px;
+}
+
+.info-img{
+    max-width: 200px;
 }
