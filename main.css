@@ -88,3 +88,27 @@
     color:white;
     font-size:3em;
 }
+
+.separator{
+    background-color: darkblue;
+    width:100%;
+    height: 30px;
+}
+
+#email-cta h1{
+    margin-bottom: 0px;
+}
+
+#projects h3 {
+    padding-bottom: 50px;
+}
+
+.prev-companies{
+    margin-bottom: 50px;
+}
+
+.company-logo{
+    max-width:120px;
+    margin:10px;
+    height: auto;
+}

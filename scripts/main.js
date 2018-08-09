@@ -3,7 +3,7 @@
  }
 
 var instance = new TypeIt('#typeString', {
-    strings: ["mobile developer.", "game developer.", "web developer.", "web designer.",],
+    strings: ["researcher.", "VR enthusiast.", "mobile developer.", "game developer.", "web developer.", "web designer.",],
     //-- Other options...
     breakLines: false,
     loop: true,
