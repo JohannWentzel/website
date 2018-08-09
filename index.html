@@ -16,23 +16,52 @@
         <h1>Hi! I'm Johann.</h1>
         <p>I'm a <span id="typeString"></span></p>
         <div class="button-row">
-            <button class="btn btn-outline-light col col-md-3">Resume</button>
-            <button class="btn btn-outline-light col col-md-3">LinkedIn</button>
+            <a class="col col-md-3" href="./Resume - Johann Wentzel.pdf" role="button"><i class="link-icon fas fa-file-alt"></i></a>
+            <a class="col col-md-3" href="http://linkedin.com/in/johannwentzel" role="button"><i class="link-icon fab fa-linkedin"></i></a>
+            <a class="col col-md-3" href="http://github.com/johannwentzel" role="button"><i class="link-icon fab fa-github"></i></a>
         </div>
 
     </div>
-    <div class="section projects col-lg-10 offset-lg-1">
+    <div class="section projects col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
         <div class="text-center section-title">
                 <h1 class="col-xl-12 text-center">I make things.</h1>
                 <p>I'm a developer, focusing mainly on iOS, Android, Unity, and web.</p>
         </div>
-
+<!-- 
         <div class="item-row row">
-            <img class="col-md-4" src="http://via.placeholder.com/200x200">
+            <div class="col-12 col-md-4 offset-xs-4 offset-md-0 text-center item-img img-fluid">
+                <img src="./img/coril150.jpg">
+            </div>
             <div class="item-description col-md-8">
-                <h3 class="text-left item-title">Coril150</h3>
-                <p class="text-left item-description">Created an app for Coril Holdings blah blah blah blah blah blah.</p>
+                <h3 class="text-left item-title">Coril150 - Celebrating Canada's 150th</h3>
+                <p class="text-left item-description">A news reader app where users can post stories and other uniquely Canadian experiences. Created for Coril Holdings' Canada 150 celebration.</p>
                 <p class="text-left item-tech">Technologies include: iOS, Swift, Android, Java, XCode, Android Studio</p>
+            </div>
+        </div> -->
+
+        <div class="card-deck">
+        <div class="card">
+            <img class="card-img-top" src="./img/coril150.jpg" alt="Coril150">
+            <div class="card-body">
+            <h5 class="card-title">Coril150</h5>
+            <p class="card-text">A news reader app where users can read and post Canadian stories, for Coril Holdings' Canada 150 celebration.</p>
+            <p class="card-text"><small class="text-muted">Technologies used: <br>iOS, Swift, Android, Java, XCode, Android Studio</small></p>
+            </div>
+        </div>
+        <div class="card">
+                <img class="card-img-top" src="./img/Breakout.jpg" alt="Raspberry Pi Breakout">
+                <div class="card-body">
+                    <h5 class="card-title">RasPi Breakout</h5>
+                    <p class="card-text">Created Breakout on the Raspberry Pi, entirely in Assembly. Game was controlled by reading a SNES controller's raw input.</p>
+                    <p class="card-text"><small class="text-muted">Technologies used: <br>ARM, Assembly, SNES, UART, JTAG</small></p>
+                </div>
+                </div>
+        <div class="card">
+            <img class="card-img-top" src="./img/ktane.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Übermanual</h5>
+                <p class="card-text">Created a “solver” program for the game Keep Talking and Nobody Explodes. Defuse the bomb without having to think!</p>
+                <p class="card-text"><small class="text-muted">Technologies used: <br>Java</small></p>
             </div>
         </div>
     </div>
@@ -42,6 +71,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/typeit@5.10.5/dist/typeit.min.js"></script>
     <script src="./scripts/particles.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <script src="./scripts/main.js"></script>
 </body>
 </html>
