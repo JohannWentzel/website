@@ -65,6 +65,11 @@ a{
     color: darkblue;
     border-color: darkblue;
 }
+.btn:hover{
+    color:darkblue;
+    background-color: darkblue;
+    color:white;
+}
 
 .section-title{
     margin-bottom:70px;
@@ -73,6 +78,7 @@ a{
 .item-img {
     width: 50px;
     height: auto;
+    background-color: white;
 }
 
 .item-row {
@@ -127,3 +133,26 @@ a{
 .shiftup{
     top:-15px;
 }
+
+#darkmode-icon{
+    position: absolute;
+    top:5%;
+    left:90%;
+    z-index: 1;
+    color:white;
+    opacity: 0.4;
+    font-size: 1.5em;
+    transition: opacity .1s ease-in-out;
+}
+
+#darkmode-icon:hover{
+    opacity: 1;
+}
+
+.animated-transition {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
