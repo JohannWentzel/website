@@ -18,9 +18,9 @@ function toggleDarkMode(){
     console.log("Dark mode toggled to " + isDarkMode);
     if (isDarkMode){
         $("#darkmode-icon").html("<i class='fas fa-moon'></i>");
-        $("body").css("background-color","#090A1C");
+        $("body").css("background-color","#14141C");
         $("section").find("p, h1, h2, h3, h4, h5, .btn").css("color", "white");
-        $("section").find(".card").css("background-color","#090A1C");
+        $("section").find(".card").css("background-color","#14141C");
         $("section").find(".card").addClass("border-light");
         $("section").find(".btn").css("border-color","white");
         $("section").find("p a").css("color","#77D2FF");
