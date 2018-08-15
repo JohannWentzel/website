@@ -1,6 +1,6 @@
 /* Colors */
 :root {
-    --primary: rgb(13, 13, 46);
+    --primary: rgb(20, 20, 66);
     --white: #FFFFFF;
     --black: #000000;
   }
@@ -144,7 +144,7 @@ a{
 #darkmode-icon{
     position: absolute;
     top:5%;
-    left:90%;
+    left:85%;
     z-index: 1;
     color:var(--white);
     opacity: 0.4;
