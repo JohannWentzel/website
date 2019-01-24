@@ -21,6 +21,7 @@ function toggleDarkMode(){
         $("body").css("background-color","#14141C");
         $("section").find("p, h1, h2, h3, h4, h5, .btn").css("color", "white");
         $("section").find(".card").css("background-color","#14141C");
+        $("section").find(".darken").css("background-color","#14141C");
         $("section").find(".card").addClass("border-light");
         $("section").find(".btn").css("border-color","white");
         $("section").find("p a").css("color","#77D2FF");
@@ -32,6 +33,7 @@ function toggleDarkMode(){
         $("body").css("background-color","");
         $("section").find("p, h1, h2, h3, h4, h5, .btn").css("color", "");
         $("section").find(".card").css("background-color","");
+        $("section").find(".darken").css("background-color","");
         $("section").find(".card").removeClass("border-light");
         $("section").find(".btn").css("border-color","");
         $("section").find("p a").css("color","");
@@ -46,5 +48,5 @@ $( document ).ready(function(){
         toggleDarkMode();
     })
 
-    $("body, p, h1, h2, h3, h4, h5, .btn, section, #particles").addClass("animated-transition");
+    $("body, p, h1, h2, h3, h4, h5, a, .btn, .separator, .darken, section, #particles").addClass("animated-transition");
 })
