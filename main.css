@@ -63,7 +63,6 @@ a{
 @media only screen and (max-width: 768px) {
     .item-img{
         margin-bottom: 20px;
-        
     }
 }
 
@@ -174,4 +173,9 @@ a{
 .research-img{
     width:60%;
     max-width: 150px;
+}
+
+.project-card {
+    margin: auto;
+    width: 60%;
 }
