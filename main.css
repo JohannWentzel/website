@@ -1,6 +1,7 @@
 /* Colors */
 :root {
     --primary: rgb(20, 20, 66);
+    --offwhite: #EEEEEE;
     --white: #FFFFFF;
     --black: #000000;
     --hero-height: 460px;
@@ -15,8 +16,8 @@ body {
 
 .hero {
     height:var(--hero-height); 
-    color: var(--white);   
-    background-color: var(--primary);
+    color: var(--offwhite);   
+    /* background-color: var(--primary); */
 }
 
 h1{
