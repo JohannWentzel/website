@@ -1,0 +1,81 @@
+body{
+    background-image: url('./img/task2-side.png');
+    background-position: 50% -50%;
+    background-repeat: no-repeat;
+}
+#header{
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    margin-top:600px;
+    padding: 20px;
+}
+
+#header .title {
+    font-size: 2em;
+}
+
+#header .authors a{
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+}
+
+#header img {
+    width:30%;
+    max-width: 200px;
+}
+
+#hero-img {
+    width:100%;
+}
+
+.pad-right {
+    padding-right: 20px;
+}
+
+#content {
+    background-color: white;
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    padding: 30px;
+}
+
+#content blockquote{
+    border-left: 5px solid #eee;
+    padding: 10px 0px 5px 20px;
+
+    font-size: 1.3em;
+}
+
+#teaser img {
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.content-section {
+    margin-bottom: 4em;
+    
+}
+
+.content-section h1 {
+    font-size: 2em;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(24, 14, 167, 0.76);
+    margin-bottom: 1em;
+}
+
+/* .findings-video {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+} */
+
+.contact-author-name{
+    color: rgba(24, 14, 167, 0.76);
+}
