@@ -9,18 +9,19 @@
         <meta property="og:title" content="Improving Virtual Reality Ergonomics through Reach-Bounded Non-Linear Input Amplification">
         <meta property="og:type" content="website">
         <meta property="og:description" content="Research from Waterloo HCI: Improve user ergonomics in VR using non-linear input amplification.">
-        <meta property="og:url" content="http://www.jingjiezheng.com/projects/finger-aware-shortcuts/">
-        <meta property="og:image" content="http://www.jingjiezheng.com/projects/finger-aware-shortcuts/images/featured.jpg">
+        <meta property="og:url" content="http://johannwentzel.ca/projects/vramp/index.html">
+        <meta property="og:image" content="http://johannwentzel.ca/projects/vramp/img/task2-side.png">
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="@uwhci">
-        <meta name="twitter:creator" content="@uwhci">
+        <meta name="twitter:site" content="@johannwentzel">
+        <meta name="twitter:creator" content="@johannwentzel">
         <meta name="twitter:title" content="Improving Virtual Reality Ergonomics through Reach-Bounded Non-Linear Input Amplification">
         <meta name="twitter:description" content="Research from Waterloo HCI: Improve user ergonomics in VR using non-linear input amplification.">
-        <meta name="twitter:image" content="http://www.jingjiezheng.com/projects/finger-aware-shortcuts/images/featured.jpg">
+        <meta name="twitter:image" content="http://johannwentzel.ca/projects/vramp/img/task2-side.png">
         <title>Improving Virtual Reality Ergonomics through Reach-Bounded Non-Linear Input Amplification</title>
         <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> --><!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" href="./main.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700&display=swap" rel="stylesheet">        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700&display=swap" rel="stylesheet">        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     </head>
     <body>
         <div id="header" class="col-md-10 col-sm-12 offset-md-1 offset-sm-0">
@@ -28,7 +29,7 @@
             <p class="authors"><a href="http://johannwentzel.ca">Johann Wentzel</a>, <a href="http://gregdeon.com">Greg d'Eon</a>, <a href="http://nonsequitoria.com">Daniel&nbsp;Vogel</a></p>
             <img class="pad-right" src="img/wathci.png">
             <img class="pad-right" src="img/ubc.png">
-            <a class="download-link rounded col-xs-12" href="vramp-final-chi20.pdf">PDF Download</a>
+            <a class="download-link rounded col-xs-12" href="vramp-final-chi20.pdf">Download</a>
         </div>
         <div id="content" class="col-md-10 col-xs-12 offset-md-1">
             <div id="teaser" class="col-10 offset-1 content-section">
@@ -39,7 +40,7 @@
             <div id="findings" class="col-10 offset-1 content-section">
                 <h1>Quick Facts</h1>
                 <div class="row">
-                    <div class="col-lg-6 col-sm-10 col-sm-offset-1 col-xs-12">
+                    <div class="col-xl-6 offset-xl-0col-xs-12">
                         <ol class="findings-row">
                             <li class="findings-text">We can increase user comfort in VR using <b>input amplification</b>: transforming small arm movements into larger ones.</li>
                             <li class="findings-text">Previous input amplification reduces <b>body ownership</b>, the user's feeling of being connected to their virtual body. We remedy this by using a <b>non-linear</b> amplification technique with Hermite curves.</li>
@@ -48,7 +49,7 @@
                             <li class="findings-text">The more video games people play, the <b>more likely they are to notice</b> amplification earlier. Some participants with minimal gaming experience didn't notice amplification at all!</li>
                         </ol>
                     </div>
-                    <div class="col-lg-6 col-sm-10 col-sm-offset-1 col-xs-12">
+                    <div class="col-xl-6 offset-xl-0col-xs-12">
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_uOSFIEwDyE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
@@ -80,7 +81,7 @@
                 <p>We tested two amplification functions to make sure that they match the performance of the state-of-the-art, <a href="https://dl.acm.org/doi/abs/10.1145/3126594.3126605">Erg-O</a>. We call them <b>Low</b> and <b>High</b> respectively. Low has more subtle amplification while High is more aggressive. </p>
                 <img class="figure col-xl-4 col-lg-5 col-md-6 col-sm-8 col-xs-12 img-fluid mx-auto d-block" src="img/exp1-functions.png">
                 <p>We tested these functions with a two-target selection task in three task layouts: a small grid at the user's waist, a larger bubble around the user's reach, and a large grid making the user walk around.</p>
-                <img class="figure col-xl-8 col-lg-10 img-fluid mx-auto d-block" src="img/exp1-layouts.png">
+                <img class="figure col-xl-6 col-md-8 col-sm-8 col-xs-12 img-fluid mx-auto d-block" src="img/exp1-layouts.png">
                 <p>We found similar results to Erg-O, noting that in either case our technique provided better ergonomics with minimal effect on accuracy.</p>
                 <img class="figure col-lg-10 img-fluid mx-auto d-block" src="img/exp1-results.png">
 
@@ -92,10 +93,10 @@
                 <img class="figure col-xl-4 col-md-6 col-sm-8 col-xs-12 img-fluid mx-auto d-block" src="img/exp2-functions.png">
                 
                 <p>We tested these functions with a two-target selection task, with targets at three distances from the user's body: <b>close</b> (purple), <b>mid-range</b> (green), and <b>far</b> (blue). </p>
-                <img class="figure img-fluid mx-auto d-block" src="img/exp2-layouts.png">
+                <img class="figure col-xl-6 col-md-8 col-sm-8 col-xs-12 img-fluid mx-auto d-block" src="img/exp2-layouts.png">
                 
                 <p>We found that we can amplify user movements with this technique by up to <b>20%</b> of their arm length before reducing body ownership, <b>30%</b> before reducing accuracy, and <b>20%</b> before most users notice it.</p>
-                <img class="figure img-fluid mx-auto d-block" src="img/exp2-results.png">
+                <img class="figure col-xl-10 col-xs-12 img-fluid mx-auto d-block" src="img/exp2-results.png">
 
                 <p>Unexpected result! We found that users that played video games were more likely to notice amplificaiton happening. Many non-gamers
                 <b>didn't notice amplification happening at all</b>. The below graph shows the amplification level and the percentage of participants who noticed:</p>
@@ -122,7 +123,7 @@
 
             <div id="publication" class="col-10 offset-1 content-section">
                 <h1>Publication</h1>
-                <p>Johann Wentzel, Greg d'Eon, and Daniel Vogel. 2020. <b>Improving Virtual Reality Ergonomics through Reach-Bounded Non-Linear Input Amplification</b>. In proceedings of the ACM CHI Conference on Human Factors in Computing Systems (CHI ’20). ACM, New York, NY, USA, Paper 246, 12 pages. DOI: <a href="https://doi.org/10.1145/3313831.3376687">https://doi.org/10.1145/3313831.3376687</a></p>
+                <p>Johann Wentzel, Greg d'Eon, and Daniel Vogel. 2020. <b>Improving Virtual Reality Ergonomics through Reach-Bounded Non-Linear Input Amplification</b>. In proceedings of the ACM CHI Conference on Human Factors in Computing Systems (CHI ’20). ACM, New York, NY, USA, Paper 246, 12 pages. DOI: <a class="doi-url" href="https://doi.org/10.1145/3313831.3376687">https://doi.org/10.1145/3313831.3376687</a></p>
             
                 <!-- POST-CHI: Insert BibTeX here. -->
             </div>
@@ -136,6 +137,10 @@
                     <li><span class="contact-author-name">Daniel Vogel </span> (Assistant Professor, University of Waterloo)<br> dvogel [at] uwaterloo.ca</li>
                 </ul>
             </div>
+            <hr class="rule col-10 offset-1">
+            <p class="copyright text-center">
+               Johann Wentzel, Greg d'Eon, Daniel Vogel, University of Waterloo, University of British Columbia © 2020
+            </p>
         </div>
     </body>
 </html>

@@ -1,3 +1,7 @@
+:root {
+    --hr: rgba(24, 14, 167, 0.76);
+}
+
 body{
     background-image: url('./img/task2-side.png'), linear-gradient(to bottom, rgb(122, 115, 110), #222222);
     background-position: top center;
@@ -9,7 +13,7 @@ body{
     color: white;
     font-family: 'Open Sans';
     font-weight: lighter;
-    margin-top:600px;
+    margin-top:40%;
     padding: 20px;
 }
 
@@ -41,6 +45,7 @@ body{
     margin-top: 20px;
     font-family: 'Open Sans';
     padding: 30px;
+    margin-bottom: 30px;
 }
 
 #content blockquote{
@@ -64,7 +69,7 @@ body{
 .content-section h1 {
     font-size: 2em;
     padding-bottom: 10px;
-    border-bottom: 1px solid rgba(24, 14, 167, 0.76);
+    border-bottom: 1px solid var(--hr);
     margin-bottom: 1em;
 }
 .content-section h2{
@@ -82,7 +87,7 @@ body{
 }
 
 .download-link{
-    background-color: rgba(24, 14, 167, 0.76);
+    background-color: var(--hr);
     color: white;
     padding: 5px 10px 5px 10px;
     float: right;
@@ -90,7 +95,7 @@ body{
 }
 
 .download-link:hover{
-    color: darkblue;
+    color: var(--hr);
     background-color: rgb(255, 255, 255);
     text-decoration: none;
 }
@@ -113,4 +118,17 @@ ol li::before {
 ol li {
     counter-increment: li;
     margin-bottom:1em;
+}
+hr {
+    border-color: var(--hr);
+}
+
+.copyright {
+    margin-top: 40px;
+    color:gray;
+    font-size: small;
+}
+
+.doi-url{
+    word-wrap: break-word;
 }
