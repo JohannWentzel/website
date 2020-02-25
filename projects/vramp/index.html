@@ -39,7 +39,7 @@
             <div id="findings" class="col-10 offset-1 content-section">
                 <h1>Quick Facts</h1>
                 <div class="row">
-                    <div class="col-md-6 col-sm-10 col-sm-offset-1 col-xs-12">
+                    <div class="col-lg-6 col-sm-10 col-sm-offset-1 col-xs-12">
                         <ol class="findings-row">
                             <li class="findings-text">We can increase user comfort in VR using <b>input amplification</b>: transforming small arm movements into larger ones.</li>
                             <li class="findings-text">Previous input amplification reduces <b>body ownership</b>, the user's feeling of being connected to their virtual body. We remedy this by using a <b>non-linear</b> amplification technique with Hermite curves.</li>
@@ -48,7 +48,7 @@
                             <li class="findings-text">The more video games people play, the <b>more likely they are to notice</b> amplification earlier. Some participants with minimal gaming experience didn't notice amplification at all!</li>
                         </ol>
                     </div>
-                    <div class="col-md-6 col-sm-10 col-sm-offset-1 col-xs-12">
+                    <div class="col-lg-6 col-sm-10 col-sm-offset-1 col-xs-12">
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_uOSFIEwDyE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
@@ -68,8 +68,10 @@
                 <ol>
                     <li>The user begins by defining a <b>neutral point (P<sub>N</sub>)</b>, and their <b>max reach (P<sub>max</sub>)</b>.</li>
                     <li>The system gets a <b> percent offset</b> based on the distance of the user's hand between their neutral point and their max reach. </li>
-                    <li>That percent offset is plugged into an <b>amplification function</b> containing a <b>Hermite curve</b>, which returns an amplified hand offset, which is then applied to the virtual controller.</li>
+                    <li>That percent offset is plugged into an <b>amplification function</b> containing a <b>Hermite curve</b>, which returns an amplified hand position (P<sup>*</sup><sub>H</sub>), which is then applied to the virtual controller.</li>
                 </ol>
+
+                <p><b>In short:</b> hand position (P<sub>H</sub>) → amplification function → amplified hand position (P<sup>*</sup><sub>H</sub>).</p>
    
             </div>
 
