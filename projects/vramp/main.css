@@ -1,6 +1,6 @@
 body{
     background-image: url('./img/task2-side.png');
-    background-position: 50% -50%;
+    background-position: top center;
     background-repeat: no-repeat;
 }
 #header{
@@ -66,14 +66,9 @@ body{
     border-bottom: 1px solid rgba(24, 14, 167, 0.76);
     margin-bottom: 1em;
 }
-
-/* .findings-video {
-    position: relative;
-    display: block;
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    overflow: hidden;
+/* 
+.findings-video {
+    margin-top: %;
 } */
 
 .contact-author-name{
