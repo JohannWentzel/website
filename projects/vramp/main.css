@@ -132,3 +132,16 @@ hr {
 .doi-url{
     word-wrap: break-word;
 }
+
+pre code {
+    background-color: #eee;
+    color: black !important;
+    overflow: auto;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+}
+
+code {
+    te: white;
+}
