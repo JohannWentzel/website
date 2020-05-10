@@ -14,6 +14,7 @@ body {
     padding: 50px;
 }
 
+
 .hero {
     height:var(--hero-height); 
     color: var(--offwhite);   
@@ -24,6 +25,7 @@ h1{
     font-size: 3.5em;
     font-family: 'Lato', sans-serif;
 }
+
 
 a{
     color:var(--primary);
@@ -60,11 +62,16 @@ a{
     .hero p {
         font-size: 1.5em;
     }
+
+    
 }
 
 @media only screen and (max-width: 768px) {
     .item-img{
         margin-bottom: 20px;
+    }
+    .timeline{
+        display: none
     }
 }
 
@@ -185,3 +192,9 @@ a{
     margin: auto;
     width: 60%;
 }
+
+.timeline img{
+    margin-top:20px;
+    margin-bottom: 40px;
+}
+
