@@ -26,6 +26,9 @@ function toggleDarkMode(){
         $("section").find(".btn").css("border-color","white");
         $("section").find("p a").css("color","#77D2FF");
         $(".separator, #particles").css("background-color","#000008");
+        var svg = document.getElementById('svgTimeline');
+        var elems = svg.contentDocument.querySelectorAll('*[id^="selectable"]');
+        elems.forEach(element => element.setAttribute('fill','#ffffff'));
 
     }
     else {
@@ -38,6 +41,10 @@ function toggleDarkMode(){
         $("section").find(".btn").css("border-color","");
         $("section").find("p a").css("color","");
         $(".separator, #particles").css("background-color","");
+        $("#ucalgary, #uwaterloo").css('fill','#000000');
+        var svg = document.getElementById('svgTimeline');
+        var elems = svg.contentDocument.querySelectorAll('*[id^="selectable"]');
+        elems.forEach(element => element.setAttribute('fill','#000000'));
     }
     
 
