@@ -18,14 +18,15 @@ function toggleDarkMode(){
     console.log("Dark mode toggled to " + isDarkMode);
     if (isDarkMode){
         $("#darkmode-icon").html("<i class='fas fa-moon'></i>");
-        $("body").css("background-color","#14141C");
+        $("body").css("background-color","#000000");
         $("section").find("p, h1, h2, h3, h4, h5, .btn").css("color", "white");
-        $("section").find(".card").css("background-color","#14141C");
-        $("section").find(".darken").css("background-color","#14141C");
+        $("section").find(".card").css("background-color","#000000");
+        $("section").find(".darken").css("background-color","#000000");
         $("section").find(".card").addClass("border-light");
         $("section").find(".btn").css("border-color","white");
         $("section").find("p a").css("color","#77D2FF");
-        $(".separator, #particles").css("background-color","#000008");
+        $(".separator, #particles").css("background-color","#22222A");
+        $(".footer").css("background-color","#22222A");
         var svg = document.getElementById('svgTimeline');
         var elems = svg.contentDocument.querySelectorAll('*[id^="selectable"]');
         elems.forEach(element => element.setAttribute('fill','#ffffff'));
@@ -42,6 +43,7 @@ function toggleDarkMode(){
         $("section").find("p a").css("color","");
         $(".separator, #particles").css("background-color","");
         $("#ucalgary, #uwaterloo").css('fill','#000000');
+        $(".footer").css("background-color","");
         var svg = document.getElementById('svgTimeline');
         var elems = svg.contentDocument.querySelectorAll('*[id^="selectable"]');
         elems.forEach(element => element.setAttribute('fill','#000000'));

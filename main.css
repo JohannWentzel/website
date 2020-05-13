@@ -11,7 +11,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 .section {
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -125,8 +126,14 @@ a{
   
 .link-icon{
     color:var(--white);
-    font-size:1.5em;
+    font-size:2em;
     margin-top: 10px;
+}
+
+.cv-icon{
+    height:1em;
+    top: -.125em;
+    position: relative;
 }
 
 .separator{
@@ -193,8 +200,16 @@ a{
     width: 60%;
 }
 
-.timeline {
-    margin-top:20px;
+.timeline object{
+    margin-top:40px;
     margin-bottom: 40px;
+}
+
+.footer{
+    background-color: var(--primary);
+    padding:30px;
+}
+.footer a {
+    color: var(--white);
 }
 
