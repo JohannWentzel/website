@@ -213,3 +213,4 @@ a{
     color: var(--white);
 }
 
+* {-webkit-font-smoothing: antialiased;}
