@@ -8,9 +8,6 @@
             <stop stop-color="#6BB344" offset="0%"></stop>
             <stop stop-color="#1581C4" offset="99.9577703%"></stop>
         </linearGradient>
-        <defs>
-        <style type="text/css">@import url("https://fonts.googleapis.com/css?family=Lato|Roboto");</style>
-        </defs>
     </defs>
     <g id="timeline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-11" transform="translate(1.000000, 116.000000)">
@@ -116,12 +113,14 @@
         </g>
         <g id="Group-10" transform="translate(577.000000, 26.000000)" fill="#0091FF">
             <rect id="Rectangle-Copy-13" x="0" y="15" width="24" height="10"></rect>
-            <rect id="Rectangle-Copy-15" fill-opacity="0.45" x="25" y="15" width="59" height="10"></rect>
+            <rect id="Rectangle-Copy-15" x="25" y="15" width="15" height="10"></rect>
             <rect id="Rectangle-Copy-14" fill-opacity="0.45" x="85" y="15" width="59" height="10"></rect>
+            <rect id="Rectangle-Copy-35" fill-opacity="0.45" x="41" y="15" width="28" height="10"></rect>
+            <rect id="Rectangle-Copy-36" fill-opacity="0.45" x="70" y="15" width="14" height="10"></rect>
             <rect id="Rectangle-Copy-18" fill-opacity="0.45" x="145" y="15" width="59" height="10"></rect>
             <rect id="Rectangle-Copy-17" fill-opacity="0.45" x="205" y="15" width="30" height="10"></rect>
             <text id="PhD,-Computer-Scienc" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal">
-                <tspan x="0" y="9">PhD, Computer Science (HCI)</tspan>
+                <tspan x="0" y="9">PhD, Computer Science (Human-Computer Interaction)</tspan>
             </text>
         </g>
         <g id="Group-6" transform="translate(392.000000, 74.000000)">
@@ -149,11 +148,18 @@
                 <tspan x="0" y="31">Mass</tspan>
             </text>
         </g>
+        <g id="Group-5-Copy" transform="translate(616.000000, 74.000000)">
+            <rect id="Rectangle-Copy-23" fill="#153E6E" x="0" y="0" width="30" height="10"></rect>
+            <text id="selectable-cm" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="0" y="20">Microsoft</tspan>
+                <tspan x="0" y="31">Research</tspan>
+            </text>
+        </g>
         <g id="Group-4" transform="translate(271.000000, 74.000000)">
             <rect id="Rectangle-Copy-34" fill="#FD6210" x="0" y="0" width="30" height="10"></rect>
             <text id="selectable-uchci" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#000000">
                 <tspan x="0" y="20">UCalgary</tspan>
-                <tspan x="0" y="31">HCI Lab</tspan>
+                <tspan x="0" y="31">iLab</tspan>
             </text>
         </g>
         <g id="Group-3" transform="translate(198.000000, 74.000000)">
