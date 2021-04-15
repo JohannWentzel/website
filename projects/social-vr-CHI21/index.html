@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0HYD17X5H"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-H0HYD17X5H');
+        </script>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Research from Waterloo HCI: Designing for Differing Physical Spaces in Social Virtual Reality.">
+        <meta name="keywords" content="virtual reality, augmented reality, social, spaces, physical environment">
+        <meta name="author" content="Johann Wentzel, Daekun Kim, and Jeremy Hartmann from University of Waterloo">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta property="og:title" content="Same Place, Different Space: Designing for Differing Physical Spaces in Social Virtual Reality">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="Research from Waterloo HCI: Designing for Differing Physical Spaces in Social Virtual Reality.">
+        <meta property="og:url" content="http://johannwentzel.ca/projects/social-vr-CHI21/index.html">
+        <meta property="og:image" content="http://johannwentzel.ca/projects/social-vr-CHI21/img/socialVR-spectrum.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@johannwentzel">
+        <meta name="twitter:creator" content="@johannwentzel">
+        <meta name="twitter:title" content="Same Place, Different Space: Designing for Differing Physical Spaces in Social Virtual Reality">
+        <meta name="twitter:description" content="Research from Waterloo HCI: Designing for Differing Physical Spaces in Social Virtual Reality.">
+        <meta name="twitter:image" content="http://johannwentzel.ca/projects/social-vr-CHI21/img/socialVR-spectrum.png">
+        <title>Same Place, Different Space: Designing for Differing Physical Spaces in Social Virtual Reality</title>
+        <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> --><!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="./main.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700&display=swap" rel="stylesheet">        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <script src="./scripts.js"></script>
+        
+        
+    </head>
+    <!-- test -->
+    <body>
+        <div id="header" class="col-md-10 col-sm-12 offset-md-1 offset-sm-0">
+            <p class="title">Same Place, Different Space: Designing for Differing Physical Spaces in Social Virtual Reality</p>
+            <p class="authors"><a href="http://johannwentzel.ca">Johann Wentzel</a>, <a href="http://daekunkim.com">Daekun Kim</a>, <a href="http://jjhartmann.org">Jeremy Hartmann</a></p>
+            <p class="authors">CHI 2021 Social VR Workshop | May 7, 2021</p>
+            <img class="pad-right" src="img/wathci.png">
+            <!-- <a class="download-link rounded col-xs-12" href="vramp-final-chi20.pdf">Download</a> -->
+        </div>
+        <div id="content" class="col-md-10 col-xs-12 offset-md-1">
+           
+
+            <div id="abstract" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Abstract</h1>
+                <p>How do you design a physically-accurate social VR space for multiple users when one has a small office and the other has a gymnasium? We discuss the trade-offs and challenges for designing physically-accurate VR spaces for multiple users via the physical-virtual spectrum, and discuss possible approaches for resolving the conflicts between VR users' varying physical environments. We provide initial discussion and directions for future research.</p>
+                <img class="figure col-lg-12 img-fluid mx-auto d-block" src="img/socialVR-spectrum.png">
+                <small><b>Figure 1: </b> Physical-virtual conformity as a combination of resemblance to the physical world (virtualized reality)
+                    and the resolution of these spaces to each other. Consider the spectrum above, on the far left of the spectrum
+                    is a virtual reality and on the far right is a virtualized reality [2]. Moving along the spectrum requires different
+                    resolution strategies: a) two users (blue and green arrows below) are in their own reality and meet in a virtual
+                    reality (above) where the system resolves their orientations; b) two users are in their own reality (below)
+                    but their couches are in a partial virtualized reality that the system resolves by rotating and merging them
+                    together (above); and c) two users are in their own virtualized reality (below) and meet up in a shared virtual
+                    reality space where the system resolves their spaces to maximize shared presence (above). The yellow square
+                    is the greatest common space between the users [4].</small>
+            </div>
+
+            <div id="introduction" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Introduction</h1>
+                <!-- <img class="figure img-fluid mx-auto d-block" src="img/technique.png"> -->
+              
+                <p>Virtual reality (VR) allows people to spend time together and feel socially present with others
+                regardless of the distance between them. As consumer-accessible VR devices re-energize public
+                interest in VR, and the COVID-19 pandemic pushes social VR applications like Rec Room and
+                VRChat to significant user activity milestones [3, 7], the design of social VR spaces becomes all
+                the more crucial to the technology’s mainstream appeal. An under-considered factor in the design
+                of social VR is how the user’s physical space can be used to aid their sense of presence in around
+                the people they meet in VR. Converting the user’s physical space into a digital copy of itself,
+                a virtualized reality [2], has been used in the past to allow for navigation, blending, and timemanipulation [1, 5]. However, there has been little research into how these virtualized realities can
+                be mapped when multiple users share the same virtual space or how this can be used to enhance
+                their shared sense of presence and belonging.</p>
+                <p>As an example, imagine three users want to watch a movie in VR, sitting together in a VR theatre.
+                All three users are in different physical spaces with different physical seating arrangements, and as
+                such the VR theatre application must reconcile these differences in seating to create the illusion of the
+                users sitting "together" (Figure 1b). How should the application best prioritize (a) minimizing friction
+                by tailoring the environment to the user’s physical space; (b) maintaining this physical-virtual
+                connection for multiple users; and (c) achieving this balance with minimal manual intervention?
+                This paper presents a simple design space to examine applications’ considerations for their users’
+                physical environments, and an initial discussion of ways to resolve these physical-virtual space
+                conflicts for multiple users.</p>
+
+            </div>
+
+            <div id="conflicts" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Physical-Virtual Conformity and Conflicts</h1>
+                <p>We discuss two elements of multi-user spatially-accurate environments and represent them in a
+                    concise uni-dimensional <b>physical-virtual spectrum</b> (Figure 1). The poles of the spectrum represent
+                    two opposing environments. On the left of the spectrum is a virtual reality. This can represent any
+                    kind of virtual environment where users meet in VR, like VRChat [3], and has no basis in physical
+                    reality. The right side of the spectrum is a complete virtualized reality [2]. This is a copy of the
+                    user’s physical world represented in a virtual reality environment. The canonical representation of
+                    this would be a virtual environment that is one-to-one with reality and is indistinguishable. The
+                    space between these two poles represents partial representations of these realties merged together,so we can have a virtualized table merged with a virtual environment. This can be thought of as an
+                    inversion of the Reality-Virtuality Continuum [6].</p>
+
+                    <p>From the perspective of the system, conflicts can occur between either the virtual environment
+                    and a single virtualized environment, or between each of the users’ virtualized environment in their
+                    shared space. So, for each point on this spectrum, different resolution strategies need to be adopted
+                    to resolve conflicts during merging in order to create a shared sense of presence and belonging.</p>
+            
+            </div>
+
+
+
+            <div id="resolving" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Resolving Physical-Virtual Conflicts</h1>
+                <p>Resolving conflicts within multiple varying user spaces is an open VR design challenge. Our spectrum highlights the difficulty in creating environments that match each user’s physical environment
+                    while maintaining each user’s connection to their individual physical space. To address this, we
+                    propose three separate resolution strategies that could be employed by future designers and researchers. 
+                    
+                    <ol>
+                        <li><b>Orientation-centric</b> resolution matches each user’s physical direction in the room,
+                            establishing a common "forward" direction in the space (e.g. toward a shared common screen,
+                            Figure 1a).
+                        </li>
+                        <li>
+                            <b>Object-centric</b> resolution involves designating a common object or geometric
+                    feature as a coordinate-space anchor, like the couches in the "VR theatre" example (see Figure 1b).
+                        </li>
+                        <li>
+                            <b>Geometry-centric</b> resolution involves culling outlying geometry to establish a "greatest
+                            common space" between users’ physical areas (see Figure 1c).</li>
+                        </ol>
+                     </p>
+            </div>
+
+            <div id="conclusion" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Conclusion and Future Work</h1>
+                <p>Reducing the friction between users’ real and virtual spaces will allow mixed-reality social activities
+                    to become much more comfortable and engaging. Our physical-virtual spectrum provides an initial
+                    discussion of the topic, and future work will involve a series of usability experiments to determine
+                    the areas of this spectrum that provide the most value for social environments in VR.</p>
+            </div>
+
+            <div id="refs" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>References</h1>
+                <ol>
+                <li> Jeremy Hartmann, Christian Holz, Eyal Ofek, and Andrew D. Wilson. 2019. RealityCheck: Blending Virtual Environments
+with Situated Physical Reality. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems - CHI
+’19. ACM Press, New York, New York, USA, 1–12. https://doi.org/10.1145/3290605.3300577</li>
+<li> Takeo Kanade, Peter Rander, and P.J. Narayanan. 1997. Virtualized reality: constructing virtual worlds from real scenes.
+IEEE Multimedia 4, 1 (1997), 34–47. https://doi.org/10.1109/93.580394</li>
+<li> Ben Lang. 2020. Social VR App VRChat is Seeing Record Usage Amidst the Pandemic. https://www.roadtovr.com/vrchatrecord-users-coronavirus/ (Accessed on 02/17/2021).</li>
+<li> Lara Lesmes, Fredrik Hellberg, and Inna Fleišer. 2019. The Venn Room - spacepopular. http://www.spacepopular.com/</li>
+exhibitions/2019---the-venn-room (Accessed on 02/22/2021).</li>
+<li> David Lindlbauer and Andy D Wilson. 2018. Remixed Reality: Manipulating Space and Time in Augmented Reality.
+In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, 1–13.
+https://doi.org/10.1145/3173574.3173703</li>
+<li> Paul Milgram and Fumio Kishino. 1994. A Taxonomy of mixed reality visual displays. IEICE Transactions on Information
+and Systems 77, 12 (1994), 1321–1329.</li>
+<li> Thomas Wilde. 2021. ‘Rec Room’ Now Has Over 1 Million Monthly Active VR Users. https://www.roadtovr.com/recroom-1-million-monthly-active-users/ (Accessed on 02/17/2021).</li>
+            
+</ol>
+            </div>
+
+
+            <!-- <div id="publication" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Publication</h1>
+                <p>Johann Wentzel, Greg d'Eon, and Daniel Vogel. 2020. <b>Improving Virtual Reality Ergonomics through Reach-Bounded Non-Linear Input Amplification</b>. In proceedings of the ACM CHI Conference on Human Factors in Computing Systems (CHI ’20). ACM, New York, NY, USA, Paper 246, 12 pages. DOI: <a class="doi-url" href="https://doi.org/10.1145/3313831.3376687">https://doi.org/10.1145/3313831.3376687</a></p>
+                <br>
+                <h2>BibTeX</h2>
+            	<pre>
+	            	<code>@inproceedings{Wentzel2020,<br>   author = {Wentzel, Johann and d'Eon, Greg and Vogel, Daniel},<br>   title = {Improving Virtual Reality Ergonomics through Reach-Bounded Non-Linear Input Amplification},<br>   year = {2020},<br>   isbn = {9781450367080},<br>   publisher = {Association for Computing Machinery},<br>   address = {New York, NY, USA},<br>   url = {https://doi.org/10.1145/3313831.3376687},<br>   doi = {10.1145/3313831.3376687},<br>   booktitle = {Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems},<br>   articleno = {Paper 558},<br>   numpages = {12},<br>   keywords = {interaction techniques, ergonomics, input re-mapping},<br>   location = {Honolulu, HI USA},<br>   series = {CHI '20}<br>}</code>
+                </pre>
+                <div class="copy-button">
+                    <span id="copied-text">Copied!</span>
+                    <a href="javascript:copyToClipboard();">
+                        <i class="far fa-copy" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div> -->
+
+            
+
+            <div id="contact" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Contact Us</h1>
+                <p>Questions? Feel free to contact:</p>
+                <ul>
+                    <li><span class="contact-author-name">Johann Wentzel </span>(PhD student, University of Waterloo) <br>jdwentze [at] uwaterloo.ca</li>
+                    <li><span class="contact-author-name">Daekun Kim </span> (Undergrad student, University of Waterloo) <br>dkkim6200 [at] gmail.com</li>
+                    <li><span class="contact-author-name">Jeremy Hartmann </span> (PhD student, University of Waterloo)<br> dvogel [at] uwaterloo.ca</li>
+                </ul>
+            </div>
+            <hr class="rule col-md-10 offset-md-1"col-xs-12 offset-xs-0 >
+            <p class="copyright text-center">
+               Johann Wentzel, Daekun Kim, Jeremy Hartmann, University of Waterloo © 2021
+            </p>
+        </div>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    </body>
+</html>
