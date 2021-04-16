@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0HYD17X5H"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-H0HYD17X5H');
+        </script>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Research from Waterloo HCI: Font your Friends and Loved Ones using Neural Networks">
+        <meta name="keywords" content="typefaces, neural networks, ugliness, avant-garde">
+        <meta name="author" content="Josh Urban Davis from Dartmouth College, Johann Wentzel from University of Waterloo">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta property="og:title" content="Font Your Friends and Loved Ones: On the Utility of Ugly Interfaces">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="Research from Waterloo HCI: Font your Friends and Loved Ones using Neural Networks.">
+        <meta property="og:url" content="http://johannwentzel.ca/projects/font-your-friends/index.html">
+        <meta property="og:image" content="http://johannwentzel.ca/projects/font-your-friends/face-gan.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@johannwentzel">
+        <meta name="twitter:creator" content="@johannwentzel">
+        <meta name="twitter:title" content="Font Your Friends and Loved Ones: On the Utility of Ugly Interfaces">
+        <meta name="twitter:description" content="Research from Waterloo HCI: Font your Friends and Loved Ones using Neural Networks.">
+        <meta name="twitter:image" content="http://johannwentzel.ca/projects/font-your-friends/face-gan.png">
+        <title>Font Your Friends and Loved Ones: On the Utility of Ugly Interfaces</title>
+        <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> --><!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="./main.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700&display=swap" rel="stylesheet">        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <script src="./scripts.js"></script>
+        
+        
+    </head>
+    <!-- test -->
+    <body>
+        <div id="header" class="col-md-10 col-sm-12 offset-md-1 offset-sm-0">
+            <p class="title">Font Your Friends and Loved Ones: On the Utility of Ugly Interfaces</p>
+            <p class="authors"><a href="https://joshurbandavis.com/">Josh Urban Davis</a>, <a href="http://johannwentzel.ca">Johann Wentzel</a></p>
+            <p class="authors">alt.CHI 2021</p>
+            <img class="pad-right" src="img/dartmouth-logo.svg">
+            <img class="pad-right" src="img/wathci.png">
+            <!-- <a class="download-link rounded col-xs-12" href="vramp-final-chi20.pdf">Download</a> -->
+        </div>
+        <div id="content" class="col-md-10 col-xs-12 offset-md-1">
+            <div id="teaser" class="col-10 offset-1 content-section">
+                <blockquote>We made a neural network that allows you to create a font from your own face as a radical gesture toward re-including the human in interface design. We talk about this “ugly” interface within the broader historical context of ugliness.</blockquote>
+                <img class="figure col-lg-10 img-fluid mx-auto d-block" src="img/figure1-formatted.png">
+            </div>
+
+            <div id="findings" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Quick Summary</h1>
+                <div class="row">
+                    <div class="col-xl-6 offset-xl-0col-xs-12">
+                        <ol class="findings-row">
+                            <li class="findings-text">"Ugliness" as a concept varies with the political culture defining it. Most often, ugliness describes what that society deems as <b>imperfect</b>.</li>
+                            <li class="findings-text">Modern design trends focus heavily on clean, neutral designs, which can be seen as the removal of the <b>human element</b> of imperfection as seen in other types of media.</li>
+                            <li class="findings-text">Despite this, ugliness is often used for narrative purposes, including the invocation of the <b>uncanny valley</b> effect.</li>
+                            <li class="findings-text">We used a <b>generative adversarial network</b>, trained on human faces and letters, to output fonts depicted as made from human flesh.</li>
+                            <li class="findings-text">A demo of this system is available here: <a href="http://gofontyourself.xyz">gofontyourself.xyz</a></li>
+                        </ol>
+                    </div>
+                    <div class="col-xl-6 offset-xl-0col-xs-12">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/e4MhBBvy6O4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+
+            <div id="abstract" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Abstract</h1>
+                <p>User interface design often focuses so heavily on clean and minimal interface aesthetics that any deviation is often rejected as “ugly”. This tendency towards abstraction in UI design can be contextualized as a removal of the “human” or “physical world” from the aesthetic choices and design considerations for the system. To resist this techno-deterministic eradication of the human presence from UI design, as well as radically inject the human presence back into user interfaces, we present typeFACE, a web interface and generative adversarial network designed to create fonts from human faces. We provide an implementation and applications for such a system, as well as contextualize and analyze the history of “ugliness” and the “uncanny” in UI design history. We also discuss implications of such a system within the domains of data ownership, identity, and HCI design research.</p>
+            </div>
+
+            <div id="technique" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>typeFACE</h1>
+                <img class="figure img-fluid mx-auto d-block" src="img/face-gan.png">
+              
+                <ul>
+                    <li>typeFACE uses a <b>generative adversarial network</b> (GAN) to minimize the difference between two image sets: a set of 256 font letters, and 5 images of a human face.</li>
+                    <li>After training, the GAN is able to interpolate between images from the letter dataset and images from the face dataset.</li>
+                    <li>The GAN is heavily weighted toward the user facial images due to their scarcity.</li>
+                    <li>This process is similar to <a href="https://kyushu-u.pure.elsevier.com/en/publications/neural-font-style-transfer">Neural Style Transfer</a> and other image similarity approaches.</li>
+                </ul>
+
+                <img class="figure col-xl-10 col-xs-12 img-fluid mx-auto d-block" src="img/typeFACE.png">
+
+            </div>
+
+           
+
+            <div id="disc" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Where Could This Go?</h1>
+                <ol>
+                    <li>We developed a tool that lets you render your own text in a fleshy font using a pre-trained font generation model. This tool is available here: <a href="http://gofontyourself.xyz">gofontyourself.xyz</a></li>
+                    <li>We used this tool to <a href="fyf-flesh.pdf">render this very paper in our fleshy font</a>.</li>
+                    <li>Future work can involve automating this process, improving both the facial recognition and the font transcription. This could be extended into a potential authentication system based on the font rendered from a user's specific facial data.</li>
+                    <li>What if we extended this further? We can easily imagine futures where interfaces directly stem from the user's bodily features, representing the pinnacle of personalization.</li>
+                </ol>
+            </div>
+
+            <div id="publication" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Publication</h1>
+                <p>Josh Urban Davis and Johann Wentzel. 2021. <b>Font Your Friends and Loved Ones: On the Utility of Ugly Interfaces</b>. In CHI Conference on Human Factors in Computing Systems Extended Abstracts (CHI ’21 Extended Abstracts). May 8-13, 2021, Yokohama, Japan. ACM, New York, NY, USA, 7 pages. <a href="https://doi.org/10.1145/3411763.3450371">https://doi.org/10.1145/3411763.3450371</a></p>
+                <br>
+                <h2>BibTeX</h2>
+            	<pre>
+	            	<code>@inproceedings{Davis2021Font,<br>   author = {Davis, Josh Urban and Wentzel, Johann},<br>   title = {Font Your Friends and Loved Ones: On the Utility of Ugly Interfaces},<br>   year = {2021},<br>   isbn = {978-1-4503-8095-9/21/05},<br>   publisher = {Association for Computing Machinery},<br>   address = {New York, NY, USA},<br>   url = {https://doi.org/10.1145/3411763.3450371},<br>   doi = {10.1145/3411763.3450371},<br>   booktitle = {Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems Extended Abstracts},<br>   numpages = {7},<br>   keywords = {neural networks, typefaces, speculative futures},<br>   location = {Yokohama, Japan},<br>   series = {CHI EA '21}<br>}</code>
+                </pre>
+                <div class="copy-button">
+                    <span id="copied-text">Copied!</span>
+                    <a href="javascript:copyToClipboard();">
+                        <i class="far fa-copy" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+
+            
+
+            <div id="contact" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Contact Us</h1>
+                <p>Questions? Feel free to contact:</p>
+                <ul>
+                    <li><span class="contact-author-name">Josh Urban Davis </span> (PhD student, Dartmouth College) <br>joshurbandavis [at] gmail.com</li>
+                    <li><span class="contact-author-name">Johann Wentzel </span>(PhD student, University of Waterloo) <br>jdwentze [at] uwaterloo.ca</li>
+                </ul>
+            </div>
+            <hr class="rule col-md-10 offset-md-1"col-xs-12 offset-xs-0 >
+            <p class="copyright text-center">
+               Josh Urban Davis, Johann Wentzel, Dartmouth College, University of Waterloo © 2021
+            </p>
+        </div>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    </body>
+</html>
