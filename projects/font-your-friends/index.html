@@ -42,7 +42,7 @@
         <div id="header" class="col-md-10 col-sm-12 offset-md-1 offset-sm-0">
             <p class="title">Font Your Friends and Loved Ones: On the Utility of Ugly Interfaces</p>
             <p class="authors"><a href="https://joshurbandavis.com/">Josh Urban Davis</a>, <a href="http://johannwentzel.ca">Johann Wentzel</a></p>
-            <!-- <p class="authors"><i class="fas fa-award"></i> &nbsp; Best Paper Honourable Mention, CHI 2020</p> -->
+            <p class="authors">alt.CHI 2021</p>
             <img class="pad-right" src="img/dartmouth-logo.svg">
             <img class="pad-right" src="img/wathci.png">
             <!-- <a class="download-link rounded col-xs-12" href="vramp-final-chi20.pdf">Download</a> -->
@@ -82,12 +82,12 @@
                 <h1>typeFACE</h1>
                 <img class="figure img-fluid mx-auto d-block" src="img/face-gan.png">
               
-                <ol>
+                <ul>
                     <li>typeFACE uses a <b>generative adversarial network</b> (GAN) to minimize the difference between two image sets: a set of 256 font letters, and 5 images of a human face.</li>
                     <li>After training, the GAN is able to interpolate between images from the letter dataset and images from the face dataset.</li>
                     <li>The GAN is heavily weighted toward the user facial images due to their scarcity.</li>
                     <li>This process is similar to <a href="https://kyushu-u.pure.elsevier.com/en/publications/neural-font-style-transfer">Neural Style Transfer</a> and other image similarity approaches.</li>
-                </ol>
+                </ul>
 
                 <img class="figure col-xl-10 col-xs-12 img-fluid mx-auto d-block" src="img/typeFACE.png">
 
@@ -99,6 +99,7 @@
                 <h1>Where Could This Go?</h1>
                 <ol>
                     <li>We developed a tool that lets you render your own text in a fleshy font using a pre-trained font generation model. This tool is available here: <a href="http://gofontyourself.xyz">gofontyourself.xyz</a></li>
+                    <li>We used this tool to <a href="fyf-flesh.pdf">render this very paper in our fleshy font</a>.</li>
                     <li>Future work can involve automating this process, improving both the facial recognition and the font transcription. This could be extended into a potential authentication system based on the font rendered from a user's specific facial data.</li>
                     <li>What if we extended this further? We can easily imagine futures where interfaces directly stem from the user's bodily features, representing the pinnacle of personalization.</li>
                 </ol>
@@ -106,11 +107,11 @@
 
             <div id="publication" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
                 <h1>Publication</h1>
-                <p>Josh Urban Davis and Johann Wentzel. 2021. <b>Font Your Friends and Loved Ones: On the Utility of Ugly Interfaces</b>. In proceedings of the ACM CHI Conference on Human Factors in Computing Systems (CHI ’21). ACM, New York, NY, USA, Paper XXXX, XXXX pages. DOI: <a class="doi-url" href="https://doi.org/10.1145/XXXXXX">https://doi.org/10.1145/XXXXXX</a></p>
+                <p>Josh Urban Davis and Johann Wentzel. 2021. <b>Font Your Friends and Loved Ones: On the Utility of Ugly Interfaces</b>. In CHI Conference on Human Factors in Computing Systems Extended Abstracts (CHI ’21 Extended Abstracts). May 8-13, 2021, Yokohama, Japan. ACM, New York, NY, USA, 7 pages. <a href="https://doi.org/10.1145/3411763.3450371">https://doi.org/10.1145/3411763.3450371</a></p>
                 <br>
                 <h2>BibTeX</h2>
             	<pre>
-	            	<code>@inproceedings{Davis2021,<br>   author = {Davis, Josh Urban and Wentzel, Johann},<br>   title = {Font Your Friends and Loved Ones: On the Utility of Ugly Interfaces},<br>   year = {2021},<br>   isbn = {XXXXXX},<br>   publisher = {Association for Computing Machinery},<br>   address = {New York, NY, USA},<br>   url = {https://doi.org/10.1145/XXXXXX},<br>   doi = {10.1145/XXXXXXX},<br>   booktitle = {Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems},<br>   articleno = {Paper XXXX},<br>   numpages = {XX},<br>   keywords = {XXXXXX},<br>   location = {Yokohama, Japan},<br>   series = {CHI '21}<br>}</code>
+	            	<code>@inproceedings{Davis2021Font,<br>   author = {Davis, Josh Urban and Wentzel, Johann},<br>   title = {Font Your Friends and Loved Ones: On the Utility of Ugly Interfaces},<br>   year = {2021},<br>   isbn = {978-1-4503-8095-9/21/05},<br>   publisher = {Association for Computing Machinery},<br>   address = {New York, NY, USA},<br>   url = {https://doi.org/10.1145/3411763.3450371},<br>   doi = {10.1145/3411763.3450371},<br>   booktitle = {Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems Extended Abstracts},<br>   numpages = {7},<br>   keywords = {neural networks, typefaces, speculative futures},<br>   location = {Yokohama, Japan},<br>   series = {CHI EA '21}<br>}</code>
                 </pre>
                 <div class="copy-button">
                     <span id="copied-text">Copied!</span>
