@@ -3,9 +3,9 @@
 }
 
 body{
-    background-image: url('./img/task2-side.png'), linear-gradient(to bottom, rgb(122, 115, 110), #222222);
+    background-image: linear-gradient(to bottom, rgb(69, 110, 135), #d6d6d6);
     background-position: top center;
-    background-size: contain;
+    background-size: contain; 
     background-repeat: no-repeat;
 }
 #header{
@@ -13,7 +13,7 @@ body{
     color: white;
     font-family: 'Open Sans';
     font-weight: lighter;
-    margin-top:40vh;
+    margin-top:10vh;
     padding: 20px;
 }
 
