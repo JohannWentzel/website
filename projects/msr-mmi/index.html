@@ -53,7 +53,7 @@
             </div>
 
             <div id="teaser" class="col-10 offset-1 content-section">
-                <blockquote>People with mobility limitations often combine input devices to overcome computing accessibility barriers. To help designers make more accessible applications and devices, we investigate how, when, and why these device combinations occur.</blockquote>
+                <blockquote>People with mobility limitations often combine input devices to overcome computing accessibility barriers. To help designers make more accessible applications and devices, we investigated how, when, and why these device combinations occur.</blockquote>
             </div>
 
             
@@ -141,31 +141,43 @@
                 
             </div>
 
-            <div id="exp1" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
-                <h1>Experiment 1: Proof of Concept</h1>
-                <p>We tested two amplification functions to make sure that they match the performance of the state-of-the-art, <a href="https://dl.acm.org/doi/abs/10.1145/3126594.3126605">Erg-O</a>. We call them <b>Low</b> and <b>High</b> respectively. Low has more subtle amplification while High is more aggressive. </p>
-                <img class="figure col-xl-4 col-lg-5 col-md-6 col-sm-8 col-xs-12 img-fluid mx-auto d-block" src="img/exp1-functions.png">
-                <p>We tested these functions with a two-target selection task in three task layouts: a small grid at the user's waist, a larger bubble around the user's reach, and a large grid making the user walk around.</p>
-                <img class="figure col-xl-6 col-md-8 col-sm-8 col-xs-12 img-fluid mx-auto d-block" src="img/exp1-layouts.png">
-                <p>We found similar results to Erg-O, noting that in either case our technique provided better ergonomics with minimal effect on accuracy.</p>
-                <img class="figure col-lg-10 img-fluid mx-auto d-block" src="img/exp1-results.png">
+            <div id="interviews" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Interviews</h1>
+                <p>
+                    We interviewed <b>14 people</b> with mobility issues to learn about the challenges and remedies they use for multi-modal input systems. We focused on <b>gaming</b> as a central theme for participant discussion.
+                </p>
+
+                <p>
+                    Our main findings:
+                </p>
+
+                <ol>
+                    <li>More people preferred <b>slower-paced games</b> as they were generally more acommodating for different styles of use.</li>
+                    <li>People remedied input device accessibility issues by adopting four usage styles: 
+                        <ul>
+                            <li><b>conventional</b> usage, possibly including alternate control schemes, </li>
+                            <li><b>adapted grip</b> (changing how they hold or use the device),</li>
+                            <li><b>adapted device</b> (hardware modifications to the device), and</li>
+                            <li><b>alternate device</b>, swapping the input device for another entirely.</li>
+                        </ul>
+                    </li>
+                    <li>People used <b>remapping</b> often, either by re-assigning individual buttons or swapping between premade control schemes. Swapping between premade control schemes was more common in users who played console games.</li>
+                    <li>Input device combinations were <b>very common</b>, and people would often discover new input configurations and combinations by <b>browsing social media</b>.</li>
+                </ol>
+
+                <p>
+                    <u><b>Lesson learned:</b></u> the issues and remedies associated with combining input devices can be broken down into a <b>two-step matching process</b>, between user and application. Each step involves an <i>assumption</i> (what the device or application expects) and an associated <i>remedy</i> (how to overcome that assumption not being met).
+                </p>
+
+                <img class="figure col-12 img-fluid mx-auto d-block" src="img/matching.png">
+
+                
 
             </div>
 
-            <div id="exp2" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
-                <h1>Experiment 2: Amplification Functions</h1>
-                <p>We then tested our technique at a variety of different amplification strengths increasing gradually from <b>0%</b> to <b>50%</b> of the user's arm's reach.</p>
-                <img class="figure col-xl-4 col-md-6 col-sm-8 col-xs-12 img-fluid mx-auto d-block" src="img/exp2-functions.png">
-                
-                <p>We tested these functions with a two-target selection task, with targets at three distances from the user's body: <b>close</b> (purple), <b>mid-range</b> (green), and <b>far</b> (blue). </p>
-                <img class="figure col-xl-6 col-md-8 col-sm-8 col-xs-12 img-fluid mx-auto d-block" src="img/exp2-layouts.png">
-                
-                <p>We found that we can amplify user movements with this technique by up to <b>20%</b> of their arm length before reducing body ownership, <b>30%</b> before reducing accuracy, and <b>20%</b> before most users notice it.</p>
-                <img class="figure col-xl-10 col-xs-12 img-fluid mx-auto d-block" src="img/exp2-results.png">
+            <div id="yt-analysis" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Systematic Review: YouTube</h1>
 
-                <p>Unexpected result! We found that users that played video games were more likely to notice amplificaiton happening. Many non-gamers
-                <b>didn't notice amplification happening at all</b>. The below graph shows the amplification level and the percentage of participants who noticed:</p>
-                <img class="figure col-xl-6 col-md-8 col-sm-8 col-xs-12 img-fluid mx-auto d-block" src="img/exp2-noticed.png">
             </div>
 
             <div id="disc" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">

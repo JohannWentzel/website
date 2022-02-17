@@ -105,7 +105,8 @@ ol {
     counter-reset: li
 }
 
-ol li::before {
+
+ol > li::before {
     content: counter(li); 
     color: grey;
     display: inline-block; 
@@ -115,7 +116,7 @@ ol li::before {
     margin-left: -1em;
 }
 
-ol li {
+ol > li {
     counter-increment: li;
     margin-bottom:1em;
 }
