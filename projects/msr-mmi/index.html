@@ -32,7 +32,8 @@
         <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> --><!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" href="./main.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700&display=swap" rel="stylesheet">        
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="./scripts.js"></script>
         
         
@@ -104,13 +105,13 @@
                 <p>
                     First, we asked respondents which <b>categories of computing device they own</b>.
                 </p>
-                <img class="figure col-lg-6 offset-lg-3 img-fluid mx-auto d-block" src="img/survey-devices.png">
+                <img class="figure col-xl-4 offset-xl-4 col-lg-8 offset-lg-1 img-fluid mx-auto d-block" src="img/survey-devices.png">
 
                 <p>
                     Next, we asked respondents to list all the <b>input devices they use with these computing devices</b>.
                 </p>
 
-                <img class="figure col-lg-8 offset-lg-2 img-fluid mx-auto d-block" src="img/survey-inputs.jpg">
+                <img class="figure col-xl-6 offset-xl-3 col-lg-10 offset-lg-1 img-fluid mx-auto d-block" src="img/survey-inputs.jpg">
 
                 <p>
                     We organized these input devices into four categories:
@@ -121,14 +122,14 @@
                         <li><b>Voice</b>, which doesn't really fall into any of the above categories but is still important to consider.</li>
                     </ul>
 
-                    Continuous devices seem to encounter the most use, with discrete making up a significantly smaller fraciton. Interestingly enough, devices <i>specifically for accessibility</i> only begin to appear starting at the 8th most common position.
+                    Continuous devices seem to encounter the most use, with discrete making up a significantly smaller fraction. Interestingly enough, devices <i>specifically for accessibility</i> only begin to appear starting at the 8th most common position.
                 </p>
 
                 <p>
-                    Following this, we asked respondents to list all the combinations of devices they use, such as mouse-and-keyboard, trackpad and keyboard, etc.
+                    Following this, we asked respondents to list all the combinations of devices they use, such as mouse and keyboard, trackpad and keyboard, etc.
                 </p>
 
-                <img class="figure col-12 img-fluid mx-auto d-block" src="img/survey-combos.jpg">
+                <img class="figure col-xl-8 offset-xl-2 col-12 img-fluid mx-auto d-block" src="img/survey-combos.jpg">
 
                 <p>
                     Respondents said that they combined input devices frequently, but these input combinations <b>vary significantly</b> based on individual user ability. 
@@ -169,7 +170,7 @@
                     <u><b>Lesson learned:</b></u> the issues and remedies associated with combining input devices can be broken down into a <b>two-step matching process</b>, between user and application. Each step involves an <i>assumption</i> (what the device or application expects) and an associated <i>remedy</i> (how to overcome that assumption not being met).
                 </p>
 
-                <img class="figure col-12 img-fluid mx-auto d-block" src="img/matching.png">
+                <img class="figure col-xl-8 offset-xl-2 col-12 img-fluid mx-auto d-block" src="img/matching.png">
 
                 
 
@@ -177,6 +178,53 @@
 
             <div id="yt-analysis" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
                 <h1>Systematic Review: YouTube</h1>
+                <p>
+                    The interviews showed that users use <b>social media</b> to find new input combination ideas. We examined <b>74 YouTube videos</b> to show what this search process could uncover.
+                </p>
+
+                <p>
+                    We created a program that searches YouTube for every combination of <b>one accessibility keyword and one gaming keyword</b> from the lists below.
+                </p>
+
+                <p>Keywords (click to show):</p>
+
+                <div class="accordion" id="keyword-accordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Accessibility Keywords (n=60)
+                        </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#keyword-accordion">
+                        <div class="accordion-body">
+                                AAC, accessibility, ALS, amputation, amputee, arthritis, assistive technology, ataxia, augmentative communication, brain injury, cerebral palsy, congenital amputation, congenital amputee, disabilities, disability, disease, dystonia, essential tremor, Friedreich ataxia, Friedreich’s ataxia, handicap, hemiplegia, hemiplegic, hydrocephalus, hydrocephaly, Lou Gehrig’s, Lou Gehrig’s disease, medical amputation, medical amputee, motor disabilities, motor impairment, MS -Microsoft, multiple sclerosis, muscular, muscular dystrophy, myopathy, paralysis, paralyzed, paraplegia, paraplegic, Parkinson’s, Parkinson’s disease, physical disabilities, psychomotor agitation, quadriplegia, quadriplegic, rehabilitation, sclerosis, seizure disorder, SMA, special needs, spina bifida, spinal, spinal cord injury, spinal muscular atrophy, stroke, TBI, traumatic brain injury, tremor, wheelchair
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Gaming Keywords (n=8)
+                        </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#keyword-accordion">
+                        <div class="accordion-body">
+                                Gaming, video games, videogames, PC gaming, console gaming, gaming setup, XBOX, PlayStation
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p>
+                    Our main findings:
+                </p>
+                <ol>
+                    <li>Most videos showed one device being used, but the vast majority of those one-device videos showed users playing on a game console.</li>
+                    <li>Videos showing console gamers had a <strong>bigger variety in usage styles</strong>, but the vidoes showing PC gamers showed<strong> more alternate devices</strong> being used.</li>
+                    <li>Videos of console gamers showed them using <strong>multiple body parts</strong> more often.</li>
+                </ol>
+
+                <img class="figure col-xl-8 offset-xl-2 col-12 img-fluid mx-auto d-block" src="img/yt-results.jpg">
 
             </div>
 
@@ -184,16 +232,13 @@
                 <h1>What Can We Learn?</h1>
                 <ol>
                     <li>
-                        <b>Consider the Task:</b> How far do users usually reach using your app? Tailor your input amplification to
-                    your user's typical reaching motions.
+                        <b>General Support:</b> Designers need to design their apps to accommodate a wide variety of hardware and combinations.
                     </li>
                     <li>
-                        <b>Consider the Function:</b> Watch how much you're offsetting the user's hand so they don't lose their sense of body ownership. 
-                        The <i>slope</i> of the amplification function is an important factor in its usability, take it into consideration when designing an amplification function.
+                        <b>Discovery:</b> Tools to help users <i>discover and implement</i> multi-device configurations will make a significant difference to a system's usability.
                     </li>
                     <li>
-                        <b>Consider the Person:</b> How much experience do your users have with VR and gaming in general? You may be able to get away with more
-                        amplification if you don't expect them to be very experienced.
+                        <b>Virtual Devices:</b> Many users reported using virtual devices (software keyboard, etc.) to supplement real ones. Researchers need to consider virtual devices as a meaningful part of future device spaces.
                     </li>
                 </ol>
             </div>
@@ -220,11 +265,11 @@
                 <h1>Contact Us</h1>
                 <p>Questions? Feel free to contact:</p>
                 <ul>
-                    <li><span class="contact-author-name">Johann Wentzel </span>(PhD student, University of Waterloo) <br>jdwentze [at] uwaterloo.ca</li>
-                    <li><span class="contact-author-name">Sasa Junuzovic </span> (Microsoft Research) <br>sasa.junuzovic [at] microsoft.com</li>
-                    <li><span class="contact-author-name">James Devine </span> (Microsoft Research) <br>t-jamdev [at] microsoft.com</li>
-                    <li><span class="contact-author-name">John Porter </span> (Microsoft Research) <br>john.porter [at] microsoft.com</li>
-                    <li><span class="contact-author-name">Sasa Junuzovic </span> (Microsoft Research) <br>martez.mott [at] microsoft.com</li>
+                    <li><strong>Johann Wentzel </strong>(PhD student, University of Waterloo) <br>jdwentze [at] uwaterloo.ca</li>
+                    <li><strong>Sasa Junuzovic </strong> (Microsoft Research) <br>sasa.junuzovic [at] microsoft.com</li>
+                    <li><strong>James Devine </strong> (Microsoft Research) <br>t-jamdev [at] microsoft.com</li>
+                    <li><strong>John Porter </strong> (Microsoft Research) <br>john.porter [at] microsoft.com</li>
+                    <li><strong>Sasa Junuzovic </strong> (Microsoft Research) <br>martez.mott [at] microsoft.com</li>
                 </ul>
             </div>
             <!-- <hr class="rule col-md-10 offset-md-1"col-xs-12 offset-xs-0 > -->

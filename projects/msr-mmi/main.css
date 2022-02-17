@@ -130,6 +130,10 @@ hr {
     font-size: small;
 }
 
+.accordion {
+    margin-bottom: 25px;
+}
+
 .doi-url{
     word-wrap: break-word;
 }
