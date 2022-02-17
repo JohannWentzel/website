@@ -24,7 +24,7 @@ body {
 
 h1{
     font-size: 3.5em;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -214,4 +214,4 @@ a{
     color: var(--white);
 }
 
-* {-webkit-font-smoothing: antialiased;}
+/* * {-webkit-font-smoothing: antialiased;} */
