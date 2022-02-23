@@ -24,7 +24,10 @@ body{
 #header .authors a{
     font-size: 1.3em;
     color: white;
-    text-decoration: none;
+    text-decoration:none;
+}
+#header .authors a:hover{
+    text-decoration:underline;
 }
 
 #header img {
