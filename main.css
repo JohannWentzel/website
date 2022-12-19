@@ -1,10 +1,10 @@
 /* Colors */
 :root {
-    --primary: rgb(20, 20, 66);
+    --primary: rgb(9, 43, 95);
     --offwhite: #EEEEEE;
     --white: #FFFFFF;
     --black: #000000;
-    --hero-height: 460px;
+    --hero-height: 410px;
   }
 
 body {
@@ -23,9 +23,24 @@ body {
 }
 
 h1{
-    font-size: 3.5em;
+    font-size: 3em;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
+
+h2{
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: bold; */
+    padding-bottom: 18px;
+}
+
+/* h3 {
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+} */
 
 
 a{
@@ -103,11 +118,11 @@ a{
 
 }
 
-/* .item-row {
+.item-row {
     padding-bottom: 15px;
     display: flex;
     align-items: center;
-} */
+}
 
 
 .carousel-control-prev-icon {
@@ -192,7 +207,7 @@ a{
 }
 
 .research-img{
-    width:60%;
+    width:50%;
     max-width: 150px;
 }
 
