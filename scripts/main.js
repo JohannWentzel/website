@@ -14,6 +14,10 @@ particlesJS.load('particles', './scripts/particles.json', function() {
     $("#particles").height($("#main-banner").height());
   });
 
+window.onresize = function(event) {
+    $("#particles").height($("#main-banner").height());
+};
+
 function toggleDarkMode(){
     isDarkMode = !isDarkMode;
     console.log("Dark mode toggled to " + isDarkMode);
