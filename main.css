@@ -84,16 +84,14 @@ a{
         margin-top: 30px;
     }
 
-    /* .hero {
-        background-color: transparent;
-    } */
+    #particles {
+        height: 750px; 
+    }
 
-    .hero h1 {
-        font-size: 2.5em;
+    .hero {
+        height: 750px;
     }
-    .hero p {
-        font-size: 0.8em;
-    }
+
 
     
 }
