@@ -30,48 +30,58 @@
     <link rel="shortcut icon" href="img/favicon.png" />
     <link rel="apple-touch-icon" href="img/touch-icon.png" />
     <title>Johann Wentzel</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Raleway" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Raleway|Open Sans" rel="stylesheet">    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">    
     <link rel=”canonical” href=”https://www.johannwentzel.ca” />
+    <script src="https://kit.fontawesome.com/53d09a21e6.js" crossorigin="anonymous"></script>
     
 </head>
 <body>
-    <div id="darkmode-icon">
+    <!-- <div id="darkmode-icon">
             <i class="far fa-moon"></i>
-    </div>
+    </div> -->
     <div id="particles"></div>
-    <div id="main-banner" class="section hero col-12 col-lg-10 offset-lg-1 text-center">
-        <img class="headshot rounded-circle" src="img/headshot-2.jpg" alt="Headshot of Johann Wentzel">
-        <h1>Johann Wentzel</h1>
-        <div class="button-row">
-            <a class="link-icon col-12 col-md-2" href="./files/CV - Johann Wentzel.pdf" role="button"><img class="cv-icon" src="img/cv.svg" aria-label="View CV"></a>
-            <a class="link-icon col-12 col-md-2" href="http://linkedin.com/in/johannwentzel" role="button"><i class="fab fa-linkedin" aria-label="LinkedIn"></i></a>
-            <a class="link-icon col-12 col-md-2" href="https://scholar.google.com/citations?user=EO3T3N0AAAAJ&hl=en" role="button"><i class="fas fa-graduation-cap" aria-label="Google Scholar"></i></a>
-            <a class="link-icon col-12 col-md-2" href="http://twitter.com/JohannWentzel" role="button"><i class="fab fa-twitter" aria-label="Twitter"></i></a>
-            <a class="link-icon col-12 col-md-2" href="mailto:hello@johannwentzel.ca" role="button"><i class="fas fa-envelope" aria-label="Email"></i></a>
-        </div>
+    <div id="main-banner" class="section hero col-12 col-md-10 offset-md-1 col-xl-8 offset-xl-2 row">
+        <div class="name-info col-lg-6">
+            <h1>Johann Wentzel</h1>
+            <div class="button-row">
+                <!-- <a class="link-icon col-12 col-md-2" href="./files/CV - Johann Wentzel.pdf" role="button"><img class="cv-icon" src="img/cv.svg" aria-label="View CV"></a> -->
+                <a class="link-icon" href="https://scholar.google.com/citations?user=EO3T3N0AAAAJ&hl=en" role="button"><i class="fas fa-graduation-cap" aria-label="Google Scholar"></i></a>
+                <a class="link-icon" href="mailto:hello@johannwentzel.ca" role="button"><i class="fas fa-envelope" aria-label="Email"></i></a>
+                <a class="link-icon" href="http://linkedin.com/in/johannwentzel" role="button"><i class="fab fa-linkedin" aria-label="LinkedIn"></i></a>
+                <a class="link-icon" href="http://twitter.com/JohannWentzel" role="button"><i class="fab fa-twitter" aria-label="Twitter"></i></a>
+                <a class="link-icon" href="https://hci.social/@johann" role="button"><i class="fa-brands fa-mastodon"></i></a>
+            </div>
+            <a href="./files/CV - Johann Wentzel.pdf"><p>Download CV</p></a>
 
+            <div class="text-block">
+                <p>I'm a PhD candidate in the <a href="http://hci.cs.uwaterloo.ca/">Waterloo HCI Lab</a>, supervised by <a href="http://www.nonsequitoria.com/"> Daniel Vogel</a>. 
+                    My research focuses on <span class="font-weight-bold">making VR and AR more accessible for people with limited mobility</span> by co-designing, developing, and evaluating new interaction techniques.
+                </p>
+
+                <p>
+                    Other research interests include social media ethics, generative AI, and novel 3D interaction techniques.
+                </p>
+
+                <p>During my grad studies I have interned with <span class="font-weight-bold">Meta Reality Labs</span> (CTRL-Labs), <span class="font-weight-bold">Microsoft Research</span> (Ability Team), and <span class="font-weight-bold">Autodesk Research</span>.</p>
+            
+            </div>
+    
+
+            
+        </div>
+        
+        <img class="headshot col-lg-6 align-bottom d-none d-lg-block" src="img/johann-vr-colorized-cropped.png" alt="Headshot of Johann Wentzel, wearing a VR headset.">
     </div>
 
-    <!-- <section id="about-me" class="section col-lg-10 offset-lg-1 text-center">
-        <div class="text-center section-title">
-          <h2 class="col-xl-12 text-center">Hi! I'm Johann.</h2>
-          <p>I'm a Master's student at the University of Waterloo, doing research in the <a href="http://hci.uwaterloo.ca/">Waterloo HCI Lab</a> supervised by <a href="http://www.nonsequitoria.com/">Dr. Daniel Vogel</a>. My research focuses on <span class="font-weight-bold">interaction techniques for virtual and augmented reality.</span> <i>How can we make VR/AR easier to use? How can we make it more popular? What new applications for it can we find, for gaming or productivity?</i></p>
-        </div>
-    </section>
 
-    <div class="separator"></div> -->
-
-    <section id="research" class="section col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 text-center">
-        <div class="text-center section-title col-md-8 offset-md-2">
-          <!-- <h2 class="col-xl-12 text-center">I research things.</h2> -->
-          <p class="col-12">I'm a PhD student in the <a href="http://hci.cs.uwaterloo.ca/">Waterloo HCI Lab</a>, supervised by <a href="http://www.nonsequitoria.com/"> Daniel Vogel</a>. My research focuses on <span class="font-weight-bold">making VR more accessible</span>. This includes working with accessibility-oriented communities, developing assistive technologies and interaction techniques for VR, and working with developers to implement these techniques.</p>
-        </div>
+    <section id="research" class="section col-12 col-md-10 offset-md-1 col-xl-8 offset-xl-2 text-center">
+        
          
-        <div class="timeline col-12">
+        <div class="timeline col-12 d-none d-lg-block">
             <h2 class="col-xl-12 text-center">Timeline</h2>
-            <object id="svgTimeline" class="col-12" data="img/timeline.svg" type="image/svg+xml">
+            <object id="svgTimeline" class="col-12 col-xl-10" data="img/timeline.svg" type="image/svg+xml">
                 <img src="img/timeline.png" alt="Timeline of studies and career. Information also available in CV."></img>
             </object>
             
@@ -91,7 +101,6 @@
                     <p class="text-left"><span class="font-weight-bold">Bring-Your-Own Input: Context-Aware Multi-Modal Input for More Accessible Virtual Reality</span>, CHI 2023 Doctoral Consortium</p>
                     <p class="text-left"><b>Johann Wentzel</b></p>
                     <p class="text-left item-tech"><small class="text-muted">
-                        <!-- <a href="projects/msr-mmi/index.html">Blog</a> | -->
                         <a href="projects/chidc/jwentzel-chidc-2023.pdf">PDF</a> |
                         <a href="https://doi.org/10.1145/3544549.3577056">ACM Listing</a> |
                         <a href="projects/chidc/dc-poster.pdf">Poster</a> 
@@ -107,12 +116,7 @@
                     <p class="text-left"><span class="font-weight-bold">Volumetric and User-Centric Rendering Techniques for Lens Flare and Film Grain in Virtual Reality Environments</span>, CVMP 2022 Extended Abstracts</p>
                     <p class="text-left"><b>Johann Wentzel</b>, Lesley Istead</p>
                     <p class="text-left item-tech"><small class="text-muted">
-                        <!-- <p class="text-left item-tech">(To appear)</p> -->
-                        <!-- <a href="projects/msr-mmi/index.html">Blog</a> | -->
                         <a href="projects/cvmp-lffg/CVMP_LensFlareFilmGrain.pdf">PDF</a> 
-                        <!-- <a href="https://doi.org/10.1145/3491102.3517458">ACM Listing</a> | -->
-                        <!-- <a href="http://gofontyourself.xyz">Demo</a>  | -->
-                        <!-- <a href="https://www.youtube.com/watch?v=tfJ8vBlMY5k">Talk (YouTube)</a> -->
                     </small></p>
                     <!-- <p class="text-left item-description"><i class="fas fa-award"></i> &nbsp;Best Paper Honourable Mention</p> -->
                 </div>
@@ -216,7 +220,7 @@
         
     </section>
 
-    <div class="separator"></div>
+    <!-- <div class="separator"></div> -->
 
     <!-- <section id="education" class="section col-lg-10 offset-lg-1 text-center">
         <div class="text-center section-title">
@@ -396,16 +400,13 @@
     </section> -->
 
     <div class="footer text-center">
-        <div class="button-row">
-            <div class="button-row">
-                <a class="link-icon col-12 col-md-2" href="./files/CV - Johann Wentzel.pdf" role="button"><img class="cv-icon" src="img/cv.svg" aria-label="View CV"></a>
-                <a class="link-icon col-12 col-md-2" href="http://linkedin.com/in/johannwentzel" role="button"><i class="fab fa-linkedin" aria-label="LinkedIn"></i></a>
-                <a class="link-icon col-12 col-md-2" href="https://scholar.google.com/citations?user=EO3T3N0AAAAJ&hl=en" role="button"><i class="fas fa-graduation-cap" aria-label="Google Scholar"></i></a>
-                <a class="link-icon col-12 col-md-2" href="http://twitter.com/JohannWentzel" role="button"><i class="fab fa-twitter" aria-label="Twitter"></i></a>
-            </div>
+        <div class="button-row col-4 offset-4">
+            <a class="link-icon" href="https://scholar.google.com/citations?user=EO3T3N0AAAAJ&hl=en" role="button"><i class="fas fa-graduation-cap" aria-label="Google Scholar"></i></a>
+            <a class="link-icon" href="mailto:hello@johannwentzel.ca" role="button"><i class="fas fa-envelope" aria-label="Email"></i></a>
+            <a class="link-icon" href="http://linkedin.com/in/johannwentzel" role="button"><i class="fab fa-linkedin" aria-label="LinkedIn"></i></a>
+            <a class="link-icon" href="http://twitter.com/JohannWentzel" role="button"><i class="fab fa-twitter" aria-label="Twitter"></i></a>
+            <a class="link-icon" href="https://hci.social/@johann" role="button"><i class="fa-brands fa-mastodon"></i></a>
         </div>
-        <br>
-        <a href="mailto:hello@johannwentzel.ca">hello@johannwentzel.ca</a>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -413,7 +414,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/typeit@5.10.5/dist/typeit.min.js"></script> -->
     <script src="./scripts/particles.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <script src="./scripts/main.js"></script>
 </body>
 </html>
