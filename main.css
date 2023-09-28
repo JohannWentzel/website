@@ -6,7 +6,7 @@
     --white: #FFFFFF;
     --black: #000000;
     --primary-purple: #292757;
-    --hero-height: 550px;
+    /* --hero-height: 900px; */
   }
 
 body {
@@ -14,14 +14,26 @@ body {
 }
 .section {
     padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
+} 
+
+
+#main-banner{
+    display: flex;
+    max-height: var(--hero-height);
 }
 
 
 .hero {
-    height:var(--hero-height); 
+
     color: var(--primary-purple);   
+
+    /* position: relative; */
     /* background-color: var(--primary-lavender); */
+}
+
+#research {
+    background-color: var(--white);
 }
 
 h1{
@@ -54,6 +66,7 @@ a{
 }
 
 
+
 .hero p {
     font-size: 1em;
     background-color: var(--primary-lavender);
@@ -68,15 +81,29 @@ a{
     /* max-width:500px; */
     max-height:500px;
     /* vertical-align: bottom; */
-    object-fit:contain;
+    object-fit:scale-down;
+}
+
+.headshot-narrow {
+    margin-bottom: 20px;
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    vertical-align: bottom;
+    /* text-align: center; */
 }
 
 #particles {
     position: absolute;
     width: 100%;
+    min-height: fit-content;
+    /* max-height: 1000px; */
+    /* height:var(--hero-height); */
     z-index: -1;
     background-color: var(--primary-lavender);
-    height: var(--hero-height);
+    background-size:cover;
+    /* height: inherit; */
+    /* overflow: hidden; */
 }
 
 @media only screen and (max-width: 480px) {
@@ -84,17 +111,19 @@ a{
         margin-top: 30px;
     }
 
-    #particles {
-        height: 700px; 
+    /* #particles {
+        height: 900px; 
     }
 
-    .hero {
-        height: 700px;
-    }
+    .main-banner {
+        height: 900px;
+    } */
 
     .hero h1 {
         font-size: 2.2em;
     }
+
+    
     
 
     
@@ -103,6 +132,18 @@ a{
 @media only screen and (max-width: 768px) {
     .item-img{
         margin-bottom: 20px;
+    }
+
+    /* #particles {
+        height: 710px; 
+    }
+
+    .main-banner {
+        height: 710px; 
+    } */
+
+    .name-info h1, .name-info .button-row, .name-info a{
+        text-align: center;
     }
 }
 
@@ -160,7 +201,7 @@ a{
     font-size:2em;
     margin-top: 10px;
     text-align: left;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 .cv-icon{

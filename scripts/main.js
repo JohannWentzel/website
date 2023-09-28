@@ -11,6 +11,7 @@ var isDarkMode = false;
 
 particlesJS.load('particles', './scripts/particles.json', function() {
     console.log('callback - particles.js config loaded');
+    $("#particles").height($("#main-banner").height());
   });
 
 function toggleDarkMode(){
