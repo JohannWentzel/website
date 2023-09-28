@@ -18,6 +18,10 @@ window.onresize = function(event) {
     $("#particles").height($("#main-banner").height());
 };
 
+screen.orientation.onchange = function(event) {
+    $("#particles").height($("#main-banner").height());
+};
+
 function toggleDarkMode(){
     isDarkMode = !isDarkMode;
     console.log("Dark mode toggled to " + isDarkMode);

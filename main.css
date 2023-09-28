@@ -6,11 +6,13 @@
     --white: #FFFFFF;
     --black: #000000;
     --primary-purple: #292757;
+    --font-display: 'DM Serif Display';
+    --font-body: 'Roboto';
     /* --hero-height: 900px; */
   }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-body), sans-serif;
 }
 .section {
     padding-top: 50px;
@@ -32,6 +34,10 @@ body {
     /* background-color: var(--primary-lavender); */
 }
 
+#hero-content {
+    max-width: 1300px;
+}
+
 #research {
     background-color: var(--white);
 }
@@ -39,14 +45,14 @@ body {
 h1{
     background-color: var(--primary-lavender);
     font-size: 3em;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-display);
     font-weight: bold;
 }
 
 h2{
     font-size: 1.5em;
-    font-family: 'Open Sans', sans-serif;
-    /* font-weight: bold; */
+    font-family: var(--font-display);
+    font-weight: bold;
     padding-bottom: 18px;
 }
 
@@ -60,7 +66,7 @@ h2{
 
 a{
     color:var(--primary-purple);
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-body), sans-serif;
     /* font-weight: bold; */
     text-decoration: underline;
 }
@@ -277,6 +283,7 @@ a{
 .timeline object{
     margin-top:40px;
     margin-bottom: 40px;
+    max-width: 1200px;
 }
 
 .footer{
