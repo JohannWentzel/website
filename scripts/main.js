@@ -1,25 +1,20 @@
 var isDarkMode = false;
 
-// var instance = new TypeIt('#typeString', {
-//     strings: ["researcher.", "VR enthusiast.", "mobile developer.", "game developer.", "web developer.", "web designer.", "dark mode enthusiast.",],
-//     //-- Other options...
-//     breakLines: false,
-//     loop: true,
-//     lifeLike: true,
-//     nextStringDelay: 4000,
-// });
+function resizeParticles() {
+    $("#particles").height($("#main-banner").height());
+}
 
 particlesJS.load('particles', './scripts/particles.json', function() {
     console.log('callback - particles.js config loaded');
-    $("#particles").height($("#main-banner").height());
+    resizeParticles();
   });
 
 window.onresize = function(event) {
-    $("#particles").height($("#main-banner").height());
+    resizeParticles();
 };
 
 screen.orientation.onchange = function(event) {
-    $("#particles").height($("#main-banner").height());
+    resizeParticles();
 };
 
 function toggleDarkMode(){
@@ -67,4 +62,5 @@ $( document ).ready(function(){
     })
 
     $("body, p, h1, h2, h3, h4, h5, a, .btn, .separator, .darken, section, #particles").addClass("animated-transition");
+    resizeParticles();
 })
