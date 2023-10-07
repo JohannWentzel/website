@@ -102,10 +102,11 @@ a{
 }
 
 #particles {
-    position: absolute;
+    position: fixed;
     width: 100%;
-    min-height: fit-content;
-    /* max-height: 1000px; */
+    height: 100%;
+    /* min-height: fit-content; */
+    max-height: 1000px;
     /* height:var(--hero-height); */
     z-index: -1;
     background-color: var(--primary-lavender);
@@ -137,7 +138,7 @@ a{
     
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .item-img{
         margin-bottom: 20px;
     }
