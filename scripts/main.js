@@ -4,10 +4,7 @@ function resizeParticles() {
     $("#particles").height($("#main-banner").height());
 }
 
-particlesJS.load('particles', './scripts/particles.json', function() {
-    console.log('callback - particles.js config loaded');
-    resizeParticles();
-  });
+
 
 window.onresize = function(event) {
     resizeParticles();
@@ -62,5 +59,9 @@ $( document ).ready(function(){
     })
 
     $("body, p, h1, h2, h3, h4, h5, a, .btn, .separator, .darken, section, #particles").addClass("animated-transition");
+    particlesJS.load('particles', './scripts/particles.json', function() {
+        console.log('callback - particles.js config loaded');
+        resizeParticles();
+      });
     resizeParticles();
 })

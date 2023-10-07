@@ -21,8 +21,9 @@ body {
 
 
 #main-banner{
-    display: flex;
+    /* display: flex; */
     max-height: var(--hero-height);
+    /* background-color: var(--primary-lavender); */
 }
 
 
@@ -36,6 +37,7 @@ body {
 
 #hero-content {
     max-width: 1300px;
+    /* background-color: var(--primary-lavender); */
 }
 
 #research {
