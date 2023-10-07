@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="842px" height="134px" viewBox="0 0 842 134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>timeline copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0.0422297297%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#6BB344" offset="0%"></stop>
+            <stop stop-color="#1581C4" offset="99.9577703%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="timeline-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-11" transform="translate(1.000000, 116.000000)">
+            <path d="M1,5.5 L840,5.5" id="Line" stroke="#BBBBBB" stroke-linecap="square"></path>
+            <text id="2011" font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold" fill="#6C6C6C">
+                <tspan x="0.05078125" y="16">2011</tspan>
+            </text>
+            <text id="2012" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#6C6C6C">
+                <tspan x="61.5390625" y="16">2012</tspan>
+            </text>
+            <text id="2013" font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold" fill="#6C6C6C">
+                <tspan x="121.050781" y="16">2013</tspan>
+            </text>
+            <text id="2014" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#6C6C6C">
+                <tspan x="179.539062" y="16">2014</tspan>
+            </text>
+            <text id="2015" font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold" fill="#6C6C6C">
+                <tspan x="241.050781" y="16">2015</tspan>
+            </text>
+            <text id="2016" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#6C6C6C">
+                <tspan x="300.539062" y="16">2016</tspan>
+            </text>
+            <text id="2017" font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold" fill="#6C6C6C">
+                <tspan x="361.050781" y="16">2017</tspan>
+            </text>
+            <text id="2018" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#6C6C6C">
+                <tspan x="422.539062" y="16">2018</tspan>
+            </text>
+            <text id="2019" font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold" fill="#6C6C6C">
+                <tspan x="482.050781" y="16">2019</tspan>
+            </text>
+            <text id="2020" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#6C6C6C">
+                <tspan x="542.539062" y="16">2020</tspan>
+            </text>
+            <text id="2021" font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold" fill="#6C6C6C">
+                <tspan x="602.050781" y="16">2021</tspan>
+            </text>
+            <text id="2022" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#6C6C6C">
+                <tspan x="662.539062" y="16">2022</tspan>
+            </text>
+            <text id="2023" font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold" fill="#6C6C6C">
+                <tspan x="722.050781" y="16">2023</tspan>
+            </text>
+            <text id="2024" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#6C6C6C">
+                <tspan x="782.539062" y="16">2024</tspan>
+            </text>
+            <path d="M0.5,5 L0.5,0" id="Line-2" stroke="#BBBBBB" stroke-linecap="square"></path>
+            <path d="M60.5,5 L60.5,0" id="Line-2-Copy" stroke="#BBBBBB" stroke-linecap="square"></path>
+            <path d="M120.5,5 L120.5,0" id="Line-2-Copy-2" stroke="#BBBBBB" stroke-linecap="square"></path>
+            <path d="M180.5,5 L180.5,0" id="Line-2-Copy-4" stroke="#BBBBBB" stroke-linecap="square"></path>
+            <path d="M240.5,5 L240.5,0" id="Line-2-Copy-3" stroke="#BBBBBB" stroke-linecap="square"></path>
+            <path d="M300.5,5 L300.5,0" id="Line-2-Copy-8" stroke="#BBBBBB" stroke-linecap="square"></path>
+            <path d="M360.5,5 L360.5,0" id="Line-2-Copy-7" stroke="#BBBBBB" stroke-linecap="square"></path>
+            <path d="M420.5,5 L420.5,0" id="Line-2-Copy-6" stroke="#BBBBBB" stroke-linecap="square"></path>
+            <path d="M480.5,5 L480.5,0" id="Line-2-Copy-5" stroke="#BBBBBB" stroke-linecap="square"></path>
+            <path d="M540.5,5 L540.5,0" id="Line-2-Copy-12" stroke="#BBBBBB" stroke-linecap="square"></path>
+            <path d="M600.5,5 L600.5,0" id="Line-2-Copy-11" stroke="#BBBBBB" stroke-linecap="square"></path>
+            <path d="M660.5,5 L660.5,0" id="Line-2-Copy-10" stroke="#BBBBBB" stroke-linecap="square"></path>
+            <path d="M720.5,5 L720.5,0" id="Line-2-Copy-9" stroke="#BBBBBB" stroke-linecap="square"></path>
+            <path d="M780.5,5 L780.5,0" id="Line-2-Copy-13" stroke="#BBBBBB" stroke-linecap="square"></path>
+            <path d="M840.5,5 L840.5,0" id="Line-2-Copy-14" stroke="#BBBBBB" stroke-linecap="square"></path>
+        </g>
+        <g id="Group" transform="translate(37.000000, 41.000000)">
+            <rect id="Rectangle" fill="#D79209" x="0" y="0" width="162" height="10"></rect>
+            <rect id="Rectangle-Copy-25" fill="#D79209" x="192" y="0" width="90" height="10"></rect>
+            <rect id="Rectangle-Copy-20" fill="#D79209" x="312" y="0" width="43" height="10"></rect>
+            <rect id="Rectangle-Copy-26" fill-opacity="0.2" fill="#D79209" x="162" y="0" width="30" height="10"></rect>
+            <rect id="Rectangle-Copy-31" fill-opacity="0.2" fill="#D79209" x="282" y="0" width="30" height="10"></rect>
+            <g id="noun_Check-Mark_10734-Copy" transform="translate(344.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M7.27863015,0.0885821092 C7.15047944,-0.0295273697 6.94029223,-0.0295273697 6.81205799,0.0885821092 L2.67372582,3.90040203 C2.54549157,4.01851151 2.3353879,4.01851151 2.20715365,3.90040203 L1.18787936,2.96168175 C1.05964511,2.84357227 0.849541442,2.84357227 0.721307196,2.96168175 L0.0961756851,3.53776361 C-0.0320585617,3.65587309 -0.0320585617,3.84938797 0.0961756851,3.96749745 L2.20715365,5.91141789 C2.3353879,6.02952737 2.54549157,6.02952737 2.67372582,5.91141789 L7.90376166,1.09409004 C8.03207945,0.975903614 8.03207945,0.78246568 7.90376166,0.664279256 L7.27863015,0.0885821092 Z" id="Path"></path>
+            </g>
+        </g>
+        <g id="Group-2" transform="translate(122.000000, 57.000000)">
+            <rect id="Rectangle-Copy-27" fill="#2B51FF" x="107" y="0" width="90" height="10"></rect>
+            <rect id="Rectangle-Copy-9" fill="#2B51FF" x="0" y="0" width="77" height="10"></rect>
+            <rect id="Rectangle-Copy-19" fill="#2B51FF" x="227" y="0" width="43" height="10"></rect>
+            <rect id="Rectangle-Copy-28" fill-opacity="0.2" fill="#2B51FF" x="77" y="0" width="30" height="10"></rect>
+            <rect id="Rectangle-Copy-30" fill-opacity="0.2" fill="#2B51FF" x="197" y="0" width="30" height="10"></rect>
+            <g id="noun_Check-Mark_10734-Copy-2" transform="translate(259.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M7.27863015,0.0885821092 C7.15047944,-0.0295273697 6.94029223,-0.0295273697 6.81205799,0.0885821092 L2.67372582,3.90040203 C2.54549157,4.01851151 2.3353879,4.01851151 2.20715365,3.90040203 L1.18787936,2.96168175 C1.05964511,2.84357227 0.849541442,2.84357227 0.721307196,2.96168175 L0.0961756851,3.53776361 C-0.0320585617,3.65587309 -0.0320585617,3.84938797 0.0961756851,3.96749745 L2.20715365,5.91141789 C2.3353879,6.02952737 2.54549157,6.02952737 2.67372582,5.91141789 L7.90376166,1.09409004 C8.03207945,0.975903614 8.03207945,0.78246568 7.90376166,0.664279256 L7.27863015,0.0885821092 Z" id="Path"></path>
+            </g>
+        </g>
+        <g id="Group-9" transform="translate(451.000000, 26.000000)">
+            <rect id="Rectangle-Copy-16" fill="#D14CF2" x="0" y="15" width="125" height="10"></rect>
+            <text id="MMath,-Computer-Scie" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#D14CF2">
+                <tspan x="0" y="9">MMath, Computer Science</tspan>
+            </text>
+            <g id="noun_Check-Mark_10734" transform="translate(114.000000, 17.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M7.27863015,0.0885821092 C7.15047944,-0.0295273697 6.94029223,-0.0295273697 6.81205799,0.0885821092 L2.67372582,3.90040203 C2.54549157,4.01851151 2.3353879,4.01851151 2.20715365,3.90040203 L1.18787936,2.96168175 C1.05964511,2.84357227 0.849541442,2.84357227 0.721307196,2.96168175 L0.0961756851,3.53776361 C-0.0320585617,3.65587309 -0.0320585617,3.84938797 0.0961756851,3.96749745 L2.20715365,5.91141789 C2.3353879,6.02952737 2.54549157,6.02952737 2.67372582,5.91141789 L7.90376166,1.09409004 C8.03207945,0.975903614 8.03207945,0.78246568 7.90376166,0.664279256 L7.27863015,0.0885821092 Z" id="Path"></path>
+            </g>
+        </g>
+        <g id="Group-10" transform="translate(577.000000, 26.000000)" fill="#0091FF">
+            <rect id="Rectangle-Copy-13" x="0" y="15" width="40" height="10"></rect>
+            <rect id="Rectangle-Copy-14" fill-opacity="0.2" x="98" y="15" width="47" height="10"></rect>
+            <rect id="Rectangle-Copy-35" fill-opacity="0.2" x="40" y="15" width="26" height="10"></rect>
+            <rect id="Rectangle-Copy-38" x="145" y="15" width="30" height="10"></rect>
+            <rect id="Rectangle-Copy-37" x="66" y="15" width="32" height="10"></rect>
+            <rect id="Rectangle-Copy-17" fill-opacity="0.2" x="175" y="15" width="73" height="10"></rect>
+            <text id="PhD,-Computer-Scienc" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal">
+                <tspan x="5.62695312" y="9">PhD, Computer Science (Human-Computer Interaction)</tspan>
+            </text>
+            <text id="Expected-Oct-2024" font-family="Roboto-Regular, Roboto" font-size="7" font-weight="normal">
+                <tspan x="189.35791" y="35">Expected Oct 2024</tspan>
+            </text>
+        </g>
+        <g id="Group-6" transform="translate(392.000000, 74.000000)">
+            <rect id="Rectangle-Copy-10" fill="#54C432" x="1" y="0" width="59" height="10"></rect>
+            <text id="selectable-deloitte" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="0" y="20">Deloitte</tspan>
+            </text>
+        </g>
+        <text id="selectable-ucalgary" font-family="Roboto-Bold, Roboto" font-size="11" font-weight="bold" fill="#000000">
+            <tspan x="37" y="10">University of Calgary</tspan>
+        </text>
+        <text id="BSc-(Honours),-Compu" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#D79209">
+            <tspan x="37" y="23">BSc (Honours), Computer Science</tspan>
+        </text>
+        <text id="selectable-uwaterloo" font-family="Roboto-Bold, Roboto" font-size="11" font-weight="bold" fill="#000000">
+            <tspan x="451" y="10">University of Waterloo</tspan>
+        </text>
+        <text id="BComm,-Business-Tech" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#2B51FF">
+            <tspan x="37" y="35">BComm, Business Technology Management</tspan>
+        </text>
+        <g id="Group-5" transform="translate(319.000000, 74.000000)">
+            <rect id="Rectangle-Copy-23" fill="#FE3433" x="0" y="0" width="30" height="10"></rect>
+            <text id="selectable-cm" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="0" y="20">Critical</tspan>
+                <tspan x="0" y="31">Mass</tspan>
+            </text>
+        </g>
+        <g id="Group-5-Copy" transform="translate(617.000000, 74.000000)">
+            <rect id="Rectangle-Copy-23" fill="#153E6E" x="1" y="0" width="23" height="10"></rect>
+            <text id="selectable-cm" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="0" y="20">Microsoft</tspan>
+                <tspan x="0" y="31">Research</tspan>
+            </text>
+        </g>
+        <g id="Group-5-Copy-3" transform="translate(676.000000, 74.000000)" fill="#153E6E">
+            <rect id="Rectangle-Copy-23" x="0" y="0" width="23" height="10"></rect>
+        </g>
+        <g id="Group-5-Copy-2" transform="translate(700.000000, 74.000000)">
+            <rect id="Rectangle-Copy-23" fill="#3882FB" x="0" y="0" width="21" height="10"></rect>
+            <text id="selectable-cm" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="0" y="20">Meta</tspan>
+            </text>
+        </g>
+        <g id="Group-4" transform="translate(271.000000, 74.000000)">
+            <rect id="Rectangle-Copy-34" fill="#FD6210" x="0" y="0" width="30" height="10"></rect>
+            <text id="selectable-uchci" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="0" y="20">UCalgary</tspan>
+                <tspan x="0" y="31">iLab</tspan>
+            </text>
+        </g>
+        <g id="Group-3" transform="translate(198.000000, 74.000000)">
+            <rect id="Rectangle-Copy-24" fill="#5A2783" x="0" y="0" width="30" height="10"></rect>
+            <text id="selectable-smart" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="0" y="20">SMART </tspan>
+                <tspan x="0" y="31">Technologies</tspan>
+            </text>
+        </g>
+        <g id="Group-8" transform="translate(542.000000, 74.000000)">
+            <rect id="Rectangle-Copy-21" fill="url(#linearGradient-1)" x="0" y="0" width="34" height="10"></rect>
+            <text id="selectable-autodesk" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="0" y="20">Autodesk</tspan>
+                <tspan x="0" y="31">Research</tspan>
+            </text>
+        </g>
+        <g id="Group-7" transform="translate(507.000000, 74.000000)">
+            <rect id="Rectangle-Copy-22" fill="#AB82C3" x="0" y="0" width="34" height="10"></rect>
+            <text id="selectable-nyu" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="0" y="20">NYU</tspan>
+            </text>
+        </g>
+        <path d="M630,79 L673.997332,79 L696.5,79" id="Path-2" stroke="#153E6E" stroke-dasharray="2"></path>
+    </g>
+</svg>
