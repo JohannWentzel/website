@@ -1,7 +1,7 @@
 var isDarkMode = false;
 
 function resizeParticles() {
-    // $("#particles").height($("#main-banner").height());
+    $("#particles").height($("#main-banner").height());
 }
 
 
