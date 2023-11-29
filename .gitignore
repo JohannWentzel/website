@@ -12,3 +12,4 @@
 .vscode/settings.json
 
 dev-certs/*
+.DS_Store
