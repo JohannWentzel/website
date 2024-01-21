@@ -8,11 +8,11 @@
             <stop stop-color="#6BB344" offset="0%"></stop>
             <stop stop-color="#1581C4" offset="99.9577703%"></stop>
         </linearGradient>
-        <defs>
+<defs>
             <style type="text/css">@import url("https://fonts.googleapis.com/css?family=Lato|Roboto");</style>
         </defs>
     </defs>
-    <g id="timeline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="timeline-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-11" transform="translate(1.000000, 116.000000)">
             <path d="M1,5.5 L840,5.5" id="Line" stroke="#BBBBBB" stroke-linecap="square"></path>
             <text id="2011" font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold" fill="#6C6C6C">
@@ -74,39 +74,27 @@
             <path d="M840.5,5 L840.5,0" id="Line-2-Copy-14" stroke="#BBBBBB" stroke-linecap="square"></path>
         </g>
         <g id="Group" transform="translate(37.000000, 41.000000)">
-            <rect id="Rectangle" fill="#D79209" x="0" y="0" width="24" height="10"></rect>
-            <rect id="Rectangle-Copy" fill="#D79209" x="25" y="0" width="59" height="10"></rect>
-            <rect id="Rectangle-Copy-3" fill="#D79209" x="85" y="0" width="59" height="10"></rect>
-            <rect id="Rectangle-Copy-2" fill="#D79209" x="145" y="0" width="17" height="10"></rect>
-            <rect id="Rectangle-Copy-25" fill="#D79209" x="192" y="0" width="12" height="10"></rect>
-            <rect id="Rectangle-Copy-5" fill="#D79209" x="205" y="0" width="59" height="10"></rect>
-            <rect id="Rectangle-Copy-20" fill="#D79209" x="325" y="0" width="30" height="10"></rect>
-            <rect id="Rectangle-Copy-26" fill-opacity="0.45" fill="#D79209" x="163" y="0" width="28" height="10"></rect>
-            <rect id="Rectangle-Copy-33" fill="#D79209" x="265" y="0" width="17" height="10"></rect>
-            <rect id="Rectangle-Copy-32" fill="#D79209" x="312" y="0" width="12" height="10"></rect>
-            <rect id="Rectangle-Copy-31" fill-opacity="0.45" fill="#D79209" x="283" y="0" width="28" height="10"></rect>
+            <rect id="Rectangle" fill="#D79209" x="0" y="0" width="162" height="10"></rect>
+            <rect id="Rectangle-Copy-25" fill="#D79209" x="192" y="0" width="90" height="10"></rect>
+            <rect id="Rectangle-Copy-20" fill="#D79209" x="312" y="0" width="43" height="10"></rect>
+            <rect id="Rectangle-Copy-26" fill-opacity="0.2" fill="#D79209" x="162" y="0" width="30" height="10"></rect>
+            <rect id="Rectangle-Copy-31" fill-opacity="0.2" fill="#D79209" x="282" y="0" width="30" height="10"></rect>
             <g id="noun_Check-Mark_10734-Copy" transform="translate(344.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero">
                 <path d="M7.27863015,0.0885821092 C7.15047944,-0.0295273697 6.94029223,-0.0295273697 6.81205799,0.0885821092 L2.67372582,3.90040203 C2.54549157,4.01851151 2.3353879,4.01851151 2.20715365,3.90040203 L1.18787936,2.96168175 C1.05964511,2.84357227 0.849541442,2.84357227 0.721307196,2.96168175 L0.0961756851,3.53776361 C-0.0320585617,3.65587309 -0.0320585617,3.84938797 0.0961756851,3.96749745 L2.20715365,5.91141789 C2.3353879,6.02952737 2.54549157,6.02952737 2.67372582,5.91141789 L7.90376166,1.09409004 C8.03207945,0.975903614 8.03207945,0.78246568 7.90376166,0.664279256 L7.27863015,0.0885821092 Z" id="Path"></path>
             </g>
         </g>
         <g id="Group-2" transform="translate(122.000000, 57.000000)">
-            <rect id="Rectangle-Copy-8" fill="#2B51FF" x="60" y="0" width="17" height="10"></rect>
-            <rect id="Rectangle-Copy-27" fill="#2B51FF" x="107" y="0" width="12" height="10"></rect>
-            <rect id="Rectangle-Copy-9" fill="#2B51FF" x="0" y="0" width="59" height="10"></rect>
-            <rect id="Rectangle-Copy-7" fill="#2B51FF" x="120" y="0" width="59" height="10"></rect>
-            <rect id="Rectangle-Copy-6" fill="#2B51FF" x="180" y="0" width="17" height="10"></rect>
-            <rect id="Rectangle-Copy-29" fill="#2B51FF" x="227" y="0" width="12" height="10"></rect>
-            <rect id="Rectangle-Copy-19" fill="#2B51FF" x="240" y="0" width="30" height="10"></rect>
-            <rect id="Rectangle-Copy-28" fill-opacity="0.45" fill="#2B51FF" x="78" y="0" width="28" height="10"></rect>
-            <rect id="Rectangle-Copy-30" fill-opacity="0.45" fill="#2B51FF" x="198" y="0" width="28" height="10"></rect>
+            <rect id="Rectangle-Copy-27" fill="#2B51FF" x="107" y="0" width="90" height="10"></rect>
+            <rect id="Rectangle-Copy-9" fill="#2B51FF" x="0" y="0" width="77" height="10"></rect>
+            <rect id="Rectangle-Copy-19" fill="#2B51FF" x="227" y="0" width="43" height="10"></rect>
+            <rect id="Rectangle-Copy-28" fill-opacity="0.2" fill="#2B51FF" x="77" y="0" width="30" height="10"></rect>
+            <rect id="Rectangle-Copy-30" fill-opacity="0.2" fill="#2B51FF" x="197" y="0" width="30" height="10"></rect>
             <g id="noun_Check-Mark_10734-Copy-2" transform="translate(259.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero">
                 <path d="M7.27863015,0.0885821092 C7.15047944,-0.0295273697 6.94029223,-0.0295273697 6.81205799,0.0885821092 L2.67372582,3.90040203 C2.54549157,4.01851151 2.3353879,4.01851151 2.20715365,3.90040203 L1.18787936,2.96168175 C1.05964511,2.84357227 0.849541442,2.84357227 0.721307196,2.96168175 L0.0961756851,3.53776361 C-0.0320585617,3.65587309 -0.0320585617,3.84938797 0.0961756851,3.96749745 L2.20715365,5.91141789 C2.3353879,6.02952737 2.54549157,6.02952737 2.67372582,5.91141789 L7.90376166,1.09409004 C8.03207945,0.975903614 8.03207945,0.78246568 7.90376166,0.664279256 L7.27863015,0.0885821092 Z" id="Path"></path>
             </g>
         </g>
         <g id="Group-9" transform="translate(451.000000, 26.000000)">
-            <rect id="Rectangle-Copy-12" fill="#D14CF2" x="0" y="15" width="30" height="10"></rect>
-            <rect id="Rectangle-Copy-11" fill="#D14CF2" x="31" y="15" width="59" height="10"></rect>
-            <rect id="Rectangle-Copy-16" fill="#D14CF2" x="91" y="15" width="34" height="10"></rect>
+            <rect id="Rectangle-Copy-16" fill="#D14CF2" x="0" y="15" width="125" height="10"></rect>
             <text id="MMath,-Computer-Scie" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#D14CF2">
                 <tspan x="0" y="9">MMath, Computer Science</tspan>
             </text>
@@ -115,17 +103,17 @@
             </g>
         </g>
         <g id="Group-10" transform="translate(577.000000, 26.000000)" fill="#0091FF">
-            <rect id="Rectangle-Copy-13" x="0" y="15" width="24" height="10"></rect>
-            <rect id="Rectangle-Copy-15" x="25" y="15" width="15" height="10"></rect>
-            <rect id="Rectangle-Copy-14" fill-opacity="0.45" x="99" y="15" width="45" height="10"></rect>
-            <rect id="Rectangle-Copy-35" fill-opacity="0.45" x="41" y="15" width="24" height="10"></rect>
-            <rect id="Rectangle-Copy-36" x="66" y="15" width="18" height="10"></rect>
-            <rect id="Rectangle-Copy-38" x="145" y="15" width="30" height="10"></rect>
-            <rect id="Rectangle-Copy-37" x="85" y="15" width="13" height="10"></rect>
-            <rect id="Rectangle-Copy-17" fill-opacity="0.45" x="205" y="15" width="30" height="10"></rect>
-            <rect id="Rectangle-Copy-18" fill-opacity="0.45" x="176" y="15" width="28" height="10"></rect>
+            <rect id="Rectangle-Copy-13" x="0" y="15" width="40" height="10"></rect>
+            <rect id="Rectangle-Copy-14" fill-opacity="0.2" x="98" y="15" width="47" height="10"></rect>
+            <rect id="Rectangle-Copy-35" fill-opacity="0.2" x="40" y="15" width="26" height="10"></rect>
+            <rect id="Rectangle-Copy-38" x="145" y="15" width="63" height="10"></rect>
+            <rect id="Rectangle-Copy-37" x="66" y="15" width="32" height="10"></rect>
+            <rect id="Rectangle-Copy-17" fill-opacity="0.2" x="208" y="15" width="40" height="10"></rect>
             <text id="PhD,-Computer-Scienc" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal">
-                <tspan x="0" y="9">PhD, Computer Science (Human-Computer Interaction)</tspan>
+                <tspan x="5.62695312" y="9">PhD, Computer Science (Human-Computer Interaction)</tspan>
+            </text>
+            <text id="Expected-Oct-2024" font-family="Roboto-Regular, Roboto" font-size="7" font-weight="normal">
+                <tspan x="189.35791" y="35">Expected Oct 2024</tspan>
             </text>
         </g>
         <g id="Group-6" transform="translate(392.000000, 74.000000)">
