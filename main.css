@@ -80,14 +80,18 @@ a{
     background-color: var(--primary-lavender);
 }
 
+#links p{
+    margin: 0;
+}
+
 .hero .text-block {
     margin-top: 3em;
 }
 
 .headshot {
     /* margin-bottom: 20px; */
-    /* max-width:500px; */
-    max-height:500px;
+    max-width:350px;
+    max-height:350px;
     /* vertical-align: bottom; */
     object-fit:scale-down;
 }
