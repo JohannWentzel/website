@@ -1,0 +1,180 @@
+:root {
+    --hr: rgba(24, 14, 167, 0.76);
+}
+
+body{
+    background-image: linear-gradient(to bottom, rgb(110, 109, 150), #8eb7d2);
+    background-position: top center;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+#header{
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 200;
+    margin-top:10vh;
+    padding: 20px;
+}
+
+#header .title {
+    font-size: 2em;
+}
+
+#header .authors a{
+    font-size: 1.3em;
+    color: white;
+    text-decoration:none;
+}
+#header .authors a:hover{
+    text-decoration:underline;
+}
+
+
+
+#hero-img {
+    width:100%;
+}
+
+.pad-right {
+    padding-right: 20px;
+}
+
+#content {
+    background-color: white;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+#content blockquote{
+    border-left: 5px solid #eee;
+    padding: 10px 0px 5px 20px;
+
+    font-size: 1.3em;
+}
+
+#teaser img {
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.content-section {
+    margin-bottom: 4em;
+    
+}
+
+.content-section h1 {
+    font-size: 2em;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--hr);
+    margin-bottom: 1em;
+}
+.content-section h2{
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.figure{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.caption{
+    font-size: small;
+    text-align:center;
+    margin-top: -20px;
+}
+
+.contact-author-name{
+    color: rgba(24, 14, 167, 0.76);
+}
+
+.download-link{
+    background-color: var(--hr);
+    color: white;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+.download-link:hover{
+    color: var(--hr);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+ol {
+    list-style: none; 
+    counter-reset: li
+}
+
+
+ol > li::before {
+    content: counter(li); 
+    color: grey;
+    display: inline-block; 
+    position: absolute;
+    font-size: x-large;
+    width: 1em;
+    margin-left: -1em;
+}
+
+ol > li {
+    counter-increment: li;
+    margin-bottom:1em;
+}
+hr {
+    border-color: var(--hr);
+}
+
+.copyright {
+    margin-top: 40px;
+    color:gray;
+    font-size: small;
+}
+
+.accordion {
+    margin-bottom: 25px;
+}
+
+.doi-url{
+    word-wrap: break-word;
+}
+
+pre code {
+    background-color: #eee;
+    color: black !important;
+    overflow: auto;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+}
+
+/* code {
+    te: white;
+} */
+
+.copy-button {
+    margin-top: -55px;
+    z-index: 1;
+    position: relative;
+    text-align: right;
+    margin-right: 10px;
+    font-size: x-large;
+}
+
+#copied-text {
+    font-size: small; 
+    vertical-align: middle;
+    padding-right: 20px; 
+    display: none; 
+    transition: all 0.25s ease-out 0s;
+}
+
+.video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}

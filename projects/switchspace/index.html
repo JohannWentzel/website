@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0HYD17X5H"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-H0HYD17X5H');
+        </script>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Research from Waterloo HCI: Context-Aware Peeking between VR and Desktop.">
+        <meta name="keywords" content="VR, AR, spatial computing, desktop, transitional interfaces">
+        <meta name="author" content="Johann Wentzel, Fraser Anderson, George Fitzmaurice, Tovi Grossman, Daniel Vogel">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta property="og:title" content="SwitchSpace: Understanding Context-Aware Peeking Between VR and Desktop Interfaces">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="Research from Waterloo HCI: Context-Aware Peeking between VR and Desktop.">
+        <meta property="og:url" content="http://johannwentzel.ca/projects/switchspace/index.html">
+        <meta property="og:image" content="http://johannwentzel.ca/projects/msr-mmi/img/yt-examples.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@johannwentzel">
+        <meta name="twitter:creator" content="@johannwentzel">
+        <meta name="twitter:title" content="SwitchSpace: Understanding Context-Aware Peeking Between VR and Desktop Interfaces">
+        <meta name="twitter:description" content="Research from Waterloo HCI: Context-Aware Peeking between VR and Desktop.">
+        <meta name="twitter:image" content="http://johannwentzel.ca/projects/msr-mmi/img/yt-examples.png">
+        <title>SwitchSpace: Understanding Context-Aware Peeking Between VR and Desktop Interfaces</title>
+        <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> --><!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="./main.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700&display=swap" rel="stylesheet">        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <script src="./scripts.js"></script>
+        
+        
+    </head>
+    <body>
+        <div id="header" class="col-lg-10 col-sm-12 offset-lg-1 offset-sm-0">
+            <p class="title col-12">SwitchSpace: Understanding Context-Aware Peeking Between VR and Desktop Interfaces</p>
+            <p class="authors col-12"><a href="http://johannwentzel.ca">Johann Wentzel</a>, <a href="http://fraseranderson.ca/">Fraser Anderson</a>, <a href="https://www.research.autodesk.com/people/george-fitzmaurice/">George Fitzmaurice</a>, <a href="https://www.tovigrossman.com/">Tovi Grossman</a>, <a href="https://www.nonsequitoria.com/">Daniel Vogel</a></p>
+            <p class="authors col-12">CHI 2024</p>
+            <div id="logos" class="p-0 col-12">
+                <img class="col-3 col-xl-2" src="img/wathci.png">
+                <img class="col-3 col-xl-2" src="img/autodesk-research-logo-1line-stacked-rgb-white.png">
+                <img class="col-3 col-xl-2" src="img/utoronto.svg">
+            </div>
+            <br>
+            <div class="d-inline-flex flex-row-reverse col-12">
+                <a class="p-2 download-link rounded" href="files/switchspace-chi24.pdf">Preprint</a>
+            </div>
+        </div>
+        <div id="content" class="col-lg-10 col-xs-12 offset-lg-1">
+            <div id="teaserfigure" class="col-md-10 offset-md-1 col-xs-12">
+                <img class="figure col-12 img-fluid mx-auto d-block" src="img/teaser.jpeg">
+            </div>
+
+            <div id="teaser" class="col-10 offset-1 content-section">
+                <blockquote>Switching between VR and desktop applications can be cumbersome, especially in workflows that make use of both. Quick, temporary "peeking" techniques can make these workflows faster, more precise, and more comfortable.</blockquote>
+            </div>
+
+            <div id="findings" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Key Takeaways</h1>
+                <div class="row">
+                    <div class="col-xl-6 offset-xl-0 col-xs-12">
+                        <ol class="findings-row">
+                            <li class="findings-text">Cross-reality work like 3D modelling or VR prototyping involves <b>quick, temporary switches</b> between VR and desktop, which can be cumbersome.</li>
+                            <li class="findings-text">Breaking down these switches by <b>separating input and viewing devices</b> enables more design opportunities.</li>
+                            <li class="findings-text">UI can make use of <b>context</b> like seated/standing, input devices, or viewing devices, to dynamically enable input/output techniques.</li>
+                            <li class="findings-text">Designing techniques to quickly and temporarily <b>peek</b> between interfaces, without needing to switch hardware, can make cross-reality workflows faster, more accurate, and more comfortable.</li>      
+                     
+                        </ol>
+                    </div>
+
+                    <div class="col-xl-6 offset-xl-0 col-xs-12">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item video" src="https://www.youtube.com/embed/LrUTpQ46KyA?si=SNeX98u3oJWPeeXj" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+
+            <div id="abstract" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Abstract</h1>
+                <p>Cross-reality tasks, like creating or consuming virtual reality (VR) content, often involve inconvenient or distracting switches between desktop and VR. An initial formative study explores cross-reality switching habits, finding most switches are momentary “peeks” between interfaces, with specific habits determined by current context. The results inform a design space for context-aware “peeking” techniques that allow users to view or interact with desktop from VR, and vice versa, without fully switching. We implemented a set of peeking techniques and evaluated them in two levels of a cross-reality task: one requiring only viewing, and another requiring input and viewing. Peeking techniques made task completion faster, with increased input accuracy and reduced perceived workload.</p>
+            </div>
+
+            <div id="formative-study" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Formative Study and Design Space</h1>
+                <p>
+                    We conducted a formative study to understand how people switch between VR and desktop interfaces. We found that most switches are momentary "peeks" between interfaces, with specific habits determined by current <b>context</b>.
+                </p>
+
+                <p><b>Context</b>, in our case, describes the user's current situation across three factors:
+                <ol>
+                    <li><b>Input devices</b>: the devices used to interact with the system, such as a keyboard, mouse, or game controller.</li>
+                    <li><b>Viewing devices</b>: the devices used to view the system, such as a VR headset or a desktop monitor.</li>
+                    <li><b>Memory:</b> What were they doing before? What are they likely to do next?</li>
+                </ol>
+                
+                </p>
+
+                This led us to create a <b>design space</b> for context-aware switches between VR and desktop, which we express as a state machine: 
+
+                <img class="figure col-xl-8 offset-xl-2 col-12 img-fluid mx-auto d-block" src="img/designspace.jpg">
+                
+
+                
+                
+            </div>
+
+            <div id="Techniques" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Techniques</h1>
+
+                <p>
+                    We implemented several <b>peeking techniques</b> within this design space, including:</p>
+
+                <img class="figure col-xl-8 offset-xl-2 col-12 img-fluid mx-auto d-block" src="img/screenshot-desktopview.png">
+                <p class="caption"><b>Simulated HMD View</b>: A window into the desktop, shown in VR. Users can see their desktop while in VR, and interact with it using their VR controllers.</p>
+
+                <img class="figure col-xl-8 offset-xl-2 col-12 img-fluid mx-auto d-block" src="img/head-mouse.gif">
+                <p class="caption"><b>Mouse in VR</b>: The user can use the mouse in VR like a VR controller, with a 3D cursor locked to the headset. </p>
+
+                <img class="figure col-xl-8 offset-xl-2 col-12 img-fluid mx-auto d-block" src="img/controllers-desktopview.gif">
+                <p class="caption"><b>VR Controllers on Desktop </b>: The user can use the VR controllers on desktop to pan the simulated HMD camera and point into the scene.</p>
+
+                <img class="figure col-xl-8 offset-xl-2 col-12 img-fluid mx-auto d-block" src="img/controllermouse.gif">
+                <p class="caption"><b>Controller-Mouse</b>: Turn the controller to the side and place on the desk. Sliding the controller around the desk controls the mouse cursor.</p>
+
+                <img class="figure col-xl-8 offset-xl-2 col-12 img-fluid mx-auto d-block" src="img/wrist-panel.gif">
+                <p class="caption"><b>Desktop View (wrist)</b>: In VR, turn the controller like you're checking your watch to see a view of the desktop monitor.</p>
+
+
+                
+
+            </div>
+
+            <div id="experiment" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Experiment</h1>
+                
+                We recruited <b>16 participants</b> to complete an experiment where they had to solve simple math problems. The two halves of the math problem were split between VR and desktop, and participants <b>had to use a peeking technique or fully switch to solve the problem</b>.
+
+                <h2>Conditions</h2>
+
+                <img class="figure col-xl-8 offset-xl-2 col-12 img-fluid mx-auto d-block" src="img/view-only.jpg">
+                <p class="caption"><b>View-only</b>: Some of the math problems only needed the user to switch viewing devices, without an accompanying change in input devices.</p>
+
+                <img class="figure col-xl-8 offset-xl-2 col-12 img-fluid mx-auto d-block" src="img/input-view.jpg">
+                <p class="caption"><b>Input + View</b>: Some of the math problems required doing a "slide to unlock" gesture before seeing the rest of the problem, to enforce switches in both input and viewing devices.</p>
+
+                <img class="figure col-xl-8 offset-xl-2 col-12 img-fluid mx-auto d-block" src="img/taskpositions.jpg">
+                <p class="caption"><b>Task Positions</b>: The desktop portion of the problem always took place on the desktop monitor, but the VR portion was placed at four possible positions: Desk (aligned with the real monitor), Back (3m behind the desk), Side (2m to the right of the desk), and High (1m above the desk).</p>
+
+
+
+                <h2>Results</h2>
+
+                The ability to use these peeking techniques made solving the problem <b>faster and more accurate</b> than when users were forced to fully switch.
+
+                <img class="figure col-xl-6 offset-xl-3 col-8 img-fluid mx-auto d-block" src="img/chi24-466-fig10.jpg">
+
+                
+                The ability to use peeking techniques resulted in <b>significantly fewer hardware transitions.</b>
+                
+                <img class="figure col-xl-8 offset-xl-2 col-12 img-fluid mx-auto d-block" src="img/chi24-466-fig11.jpg">
+
+
+                The ability to use peeking techniques resulted in <b>significantly reduced perceived workload</b> (as reported by participants completing the NASA-TLX questionnaire). 
+
+                <img class="figure col-xl-8 offset-xl-2 col-12 img-fluid mx-auto d-block" src="img/chi24-466-fig12.jpg">
+
+                The ability to use peeking techniques resulted in users <b>removing the headset significantly less</b>. 
+                                
+                <img class="figure col-xl-6 offset-xl-3 col-10 img-fluid mx-auto d-block" src="img/chi24-466-fig13.jpg">
+
+
+                
+            </div>
+
+            <div id="disc" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>What Can We Learn?</h1>
+                <ol>
+                    <li>
+                        <b>Minimize hardware changes:</b> Shuffling hardware around is the biggest factor in what makes cross-reality workflows cumbersome. Designing techniques to minimize those issues can make these workflows far faster and more comfortable.
+                    </li>
+                    <li>
+                        <b>Design for Phsyical Space:</b> A big factor in our experiment was <b>where the task was placed in VR</b>, which also impacted our results. Peeking techniques that minimize real-world movement can make tasks faster, especially in more constrained real-world environments.
+                    </li>
+
+                </ol>
+            </div>
+
+            <!-- <div id="publication" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Publication</h1>
+                <p>Johann Wentzel, Fraser Anderson, George Fitzmaurice, Tovi Grossman, and Daniel Vogel. 2024. <b>SwitchSpace: Understanding Context-Aware Peeking Between VR and Desktop Interfaces</b>. In CHI Conference on Human Factors in Computing Systems (CHI ’24). Association for Computing Machinery, New York, NY, USA, Article 4, 1–17. <a class="doi-url" href="https://doi.org/10.1145/3613904.3642358">https://doi.org/10.1145/3613904.3642358</a></p>
+                <br>
+                <h2>BibTeX</h2>
+            	<pre>
+	            	<code>@inproceedings{Wentzel2024,<br>   author = {Wentzel, Johann and Junuzovic, Sasa and Devine, James and Porter, John and Mott, Martez},<br>   title = {Understanding How People with Limited Mobility Use Multi-Modal Input},<br>   year = {2022},<br>   isbn = {9781450391573},<br>   publisher = {Association for Computing Machinery},<br>   address = {New York, NY, USA},<br>   url = {https://doi.org/10.1145/3491102.3517458},<br>   doi = {10.1145/3491102.3517458},<br>   booktitle = {CHI Conference on Human Factors in Computing Systems},<br>   articleno = {4},<br>   numpages = {17},<br>   location = {New Orleans, LA, USA},<br>   series = {CHI '22}<br>}</code>
+                </pre>
+                <div class="copy-button">
+                    <span id="copied-text">Copied!</span>
+                    <a href="javascript:copyToClipboard();">
+                        <i class="far fa-copy" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div> -->
+
+            
+
+            <div id="contact" class="col-md-10 offset-md-1 col-xs-12 offset-xs-0 content-section">
+                <h1>Contact Us</h1>
+                <p>Questions? Feel free to contact:</p>
+                <ul>
+                    <li><strong>Johann Wentzel </strong>(PhD candidate, University of Waterloo) <br>jdwentze [at] uwaterloo.ca</li>
+                    <li><strong>Fraser Anderson </strong> (Autodesk Research) <br>fraser.anderson [at] autodesk.com</li>
+                    <li><strong>George Fitzmaurice </strong> (Autodesk Research) <br>george.fitzmaurice [at] microsoft.com</li>
+                    <li><strong>Tovi Grossman</strong> (University of Toronto) <br>tovi [at] dgp.toronto.edu</li>
+                    <li><strong>Daniel Vogel </strong> (University of Waterloo) <br>dvogel [at] uwaterloo.ca</li>
+                </ul>
+            </div>
+        </div>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    </body>
+</html>
