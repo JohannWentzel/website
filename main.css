@@ -23,8 +23,9 @@ body {
 
 #main-banner{
     /* display: flex; */
-    max-height: var(--hero-height);
+    /* max-height: var(--hero-height); */
     /* background-color: var(--primary-lavender); */
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
 }
 
 
@@ -39,10 +40,12 @@ body {
 #hero-content {
     max-width: 1300px;
     /* background-color: var(--primary-lavender); */
+    padding-bottom: 30px;
 }
 
 #research {
     background-color: var(--white);
+    margin-bottom: 60px;
 }
 
 h1{
@@ -304,6 +307,7 @@ a{
     background-color: var(--primary-lavender);
     color: var(--primary-purple);
     padding:30px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
 }
 .footer a {
     color: var(--primary-purple);
