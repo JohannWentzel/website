@@ -42,9 +42,9 @@
 </head>
 <body>
     <!-- <div id="darkmode-icon">
-            <i class="far fa-moon"></i>
-    </div> -->
-    
+        <i class="far fa-moon"></i>
+    </div> 
+     -->
     <div id="particles"></div>
     <div id="main-banner" class="col-12">
         <div id="hero-content" class="mx-auto section hero row col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 col-xxl-6 offset-xxl-3">
@@ -53,9 +53,8 @@
             <div class="name-info col-lg-6 col-12">
                 <h1>Johann Wentzel</h1>
                 <div class="button-row">
-                    <!-- <a class="link-icon col-12 col-md-2" href="./files/CV - Johann Wentzel.pdf" role="button"><img class="cv-icon" src="img/cv.svg" aria-label="View CV"></a> -->
-                    <a class="link-icon" href="https://scholar.google.com/citations?user=EO3T3N0AAAAJ&hl=en" role="button"><i class="fas fa-graduation-cap" aria-label="Google Scholar"></i></a>
                     <a class="link-icon" href="mailto:hello@johannwentzel.ca" role="button"><i class="fas fa-envelope" aria-label="Email"></i></a>
+                    <a class="link-icon" href="https://scholar.google.com/citations?user=EO3T3N0AAAAJ&hl=en" role="button"><i class="fas fa-graduation-cap" aria-label="Google Scholar"></i></a>
                     <a class="link-icon" href="http://linkedin.com/in/johannwentzel" role="button"><i class="fab fa-linkedin" aria-label="LinkedIn"></i></a>
                     <a class="link-icon" href="http://twitter.com/JohannWentzel" role="button"><i class="fab fa-twitter" aria-label="Twitter"></i></a>
                     <a class="link-icon" href="https://hci.social/@johann" role="button"><i class="fa-brands fa-mastodon"></i></a>
@@ -67,12 +66,16 @@
 
                 <div class="text-block">
                     <p>I'm a PhD candidate in the <a href="http://hci.cs.uwaterloo.ca/">UWaterloo HCI Lab</a>, supervised by <a href="http://www.nonsequitoria.com/"> Daniel Vogel</a>. 
-                        My research focuses on <span class="text-bold">making VR and AR more accessible for people with limited mobility</span> by co-designing, developing, and evaluating new interaction techniques.
+                        I study ways to <b>make VR motion more accessible, using novel re-adaptations of input and motion</b>.
                     </p>
 
                     <p>
-                        Other research interests include social media ethics, generative AI, and novel 3D interaction techniques.
+                        My thesis work explores how <b>combining users' more accessible input devices </b> (game controllers, mice, etc.) can be an alternative to  VR motion controllers. By focusing on the interplay between users’ input devices and their surrounding context, my work enables AR/VR experiences that are more accessible to people with reduced mobility.
                     </p>
+
+                    <p><b>Recent research interests include:</b>
+                        AR/VR interface prototyping • multi-modal interfaces • gaze tracking • input remapping • generative AI for VR design • technology ethics • large language models • evaluating VR/AR UX • VR locomotion
+                        </p>
 
                     <p>During my graduate studies I have interned with <span class="text-bold">Meta Reality Labs</span> (CTRL-Labs), <span class="text-bold">Microsoft Research</span> (Ability Team), and <span class="text-bold">Autodesk Research</span>.</p>
                 
@@ -90,25 +93,29 @@
 
     <section id="research" class="content-container">
         
-        <div id="research-content" class="section col-12 col-md-10 offset-md-1 col-xl-8 offset-xl-2 text-center">
+        <div id="research-content" class="section col-12 text-center">
          
             <div class="timeline col-12 d-none d-lg-block">
                 <h2 class="col-xl-12 text-center">Timeline</h2>
-                <object id="svgTimeline" class="col-12 col-xxl-8" data="img/timeline-nodark.svg" type="image/svg+xml">
+                <object id="svgTimeline" class="col-12" data="img/timeline-nodark.svg" type="image/svg+xml">
                     <img src="img/timeline-nodark.png" alt="Timeline of studies and career. Information also available in CV."></img>
                 </object>
                 
             </div>
             
 
-            <h2 class="col-xl-12 text-center">Publications</h2>
-            <!-- <hr> -->
             
-            <div id="pubs" class="col-12 col-lg-10 offset-lg-1">
+
+
+
+            <h2 class="col-12 text-center">Publications</h2>
+            
+            
+            <div id="pubs" class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
 
                 <div class="item-row row">
                     <div class="col-12 col-md-4 offset-xs-4 offset-md-0 text-center item-img darken">
-                        <img class="research-img" src="./img/inclusiveAR.png" alt="A Valve Index controller raycasting toward a white sphere.">
+                        <img class="research-img" src="./img/wide/inclusivear.png" alt="A person using an AR headset. Emojis show above their head.">
                     </div>
                     <div class="item-description col-md-8">
                         <p class="text-left"><span class="text-bold">More Than Input: Using the Gaze-Psychology Link for More Accessible Augmented Reality</span>, CHI 2024 Workshop "<i>Designing Inclusive Future Augmented Realities</i>"</p>
@@ -119,9 +126,11 @@
                     </div>
                 </div>
 
+                <hr>
+
                 <div class="item-row row">
                     <div class="col-12 col-md-4 offset-xs-4 offset-md-0 text-center item-img darken">
-                        <img class="research-img" src="./img/sws-chi24.png" alt="A Valve Index controller raycasting toward a white sphere.">
+                        <img class="research-img" src="./img/wide/switchspace.png" alt="A Valve Index controller raycasting toward a white sphere.">
                     </div>
                     <div class="item-description col-md-8">
                         <p class="text-left"><span class="text-bold">SwitchSpace: Understanding Context-Aware Peeking Between VR and Desktop Interfaces</span>, CHI 2024</p>
@@ -135,10 +144,11 @@
                         </small></p>
                     </div>
                 </div>
+                <hr>
 
                 <div class="item-row row">
                     <div class="col-12 col-md-4 offset-xs-4 offset-md-0 text-center item-img darken">
-                        <img class="research-img" src="./img/sws-img.png" alt="A Valve Index controller raycasting toward a white sphere.">
+                        <img class="research-img" src="./img/wide/tele.png" alt="A controller raycasting to a point on the ground, for VR teleportation.">
                     </div>
                     <div class="item-description col-md-8">
                         <p class="text-left"><span class="text-bold">Bring-Your-Own Input: Context-Aware Multi-Modal Input for More Accessible Virtual Reality</span>, CHI 2023 Doctoral Consortium</p>
@@ -150,6 +160,7 @@
                         </small></p>
                     </div>
                 </div>
+                <hr>
 
                 <div class="item-row row">
                     <div class="col-12 col-md-4 offset-xs-4 offset-md-0 text-center item-img darken">
@@ -164,11 +175,11 @@
                         <!-- <p class="text-left item-description"><i class="fas fa-award"></i> &nbsp;Best Paper Honourable Mention</p> -->
                     </div>
                 </div>
-                <!-- <hr> -->
+                <hr>
 
                 <div class="item-row row">
                     <div class="col-12 col-md-4 offset-xs-4 offset-md-0 text-center item-img darken">
-                        <img class="research-img" src="./img/xac-feet.jpg" alt="A person's feet interacting with the buttons on the Xbox Adaptive Controller, with several button switches surrounding it.">
+                        <img class="research-img" src="./img/wide/msr-mmi.png" alt="A person's feet interacting with the buttons on the Xbox Adaptive Controller, with several button switches surrounding it.">
                     </div>
                     <div class="item-description col-md-8">
                         <p class="text-left"><span class="text-bold">Understanding How People with Limited Mobility Use Multi-Modal Input</span>, CHI 2022</p>
@@ -184,11 +195,12 @@
                         <!-- <p class="text-left item-description"><i class="fas fa-award"></i> &nbsp;Best Paper Honourable Mention</p> -->
                     </div>
                 </div>
-                <!-- <hr> -->
+                <hr>
+
                 <div class="item-row row">
                     
                     <div class="col-12 col-md-4 offset-xs-4 offset-md-0 text-center item-img darken">
-                        <img class="research-img" src="./img/socialVR-spec.png" alt="The letter B, written in a fleshy font.">
+                        <img class="research-img" src="./img/wide/socialvr.png" alt="The letter B, written in a fleshy font.">
                     </div>
                     <div class="item-description col-md-8">
                         <p class="text-left"><span class="text-bold">Same Place, Different Space: Designing for Differing Physical Spaces in Social Virtual Reality</span>, CHI 2021 Social VR Workshop</p>
@@ -204,11 +216,12 @@
                         <!-- <p class="text-left item-description"><i class="fas fa-award"></i> &nbsp;Best Paper Honourable Mention</p> -->
                     </div>
                 </div>
-                <!-- <hr> -->
+                <hr>
+
                 <div class="item-row row">
                     
                     <div class="col-12 col-md-4 offset-xs-4 offset-md-0 text-center item-img darken">
-                        <img class="research-img" src="./img/face-gan-square.png" alt="The letter B, written in a fleshy font.">
+                        <img class="research-img" src="./img/wide/fyf-descriptive.png" alt="The letter B, written in a fleshy font.">
                     </div>
                     <div class="item-description col-md-8">
                         <p class="text-left"><span class="text-bold">Font Your Friends and Loved Ones: On the Utility of Ugly Interfaces</span>, alt.chi 2021</p>
@@ -224,11 +237,11 @@
                         <!-- <p class="text-left item-description"><i class="fas fa-award"></i> &nbsp;Best Paper Honourable Mention</p> -->
                     </div>
                 </div>
-                <!-- <hr> -->
+                <hr>
                 <div class="item-row row">
                     
                     <div class="col-12 col-md-4 offset-xs-4 offset-md-0 text-center item-img darken">
-                        <img class="research-img" src="./img/vramp.png" alt="Man with VR headset gestures, a virtual controller appears further away from his hand.">
+                        <img class="research-img" src="./img/wide/vramp.png" alt="Man with VR headset gestures, a virtual controller appears further away from his hand.">
                     </div>
                     <div class="item-description col-md-8">
                         <p class="text-left"><span class="text-bold">Improving Virtual Reality Ergonomics through Reach-Bounded Non-Linear Input Amplification</span>, CHI 2020</p>
@@ -243,10 +256,11 @@
                         <p class="text-left item-description"><i class="fas fa-award"></i> &nbsp;Best Paper Honourable Mention</p>
                     </div>
                 </div>
-                <!-- <hr> -->
+                <hr>
+
                 <div class="item-row row ">
                     <div class="col-12 col-md-4 offset-xs-4 offset-md-0 text-center item-img darken">
-                        <img class="research-img" src="./img/sharedpres.png" alt="A robot holding a circuit board while a man solders it.">
+                        <img class="research-img" src="./img/wide/sharedpres.png" alt="A robot holding a circuit board while a man solders it.">
                     </div>
                     <div class="item-description col-md-8">
                         <p class="text-left"><span class="text-bold">Shared Presence and Collaboration using a Co-Located Humanoid Robot</span>, HAI 2015</p>
@@ -269,8 +283,8 @@
 
     <div class="footer text-center">
         <div class="button-row col-12">
-            <!-- <a class="link-icon" href="https://scholar.google.com/citations?user=EO3T3N0AAAAJ&hl=en" role="button"><i class="fas fa-graduation-cap" aria-label="Google Scholar"></i></a> -->
             <a class="link-icon" href="mailto:hello@johannwentzel.ca" role="button"><i class="fas fa-envelope" aria-label="Email"></i></a>
+            <a class="link-icon" href="https://scholar.google.com/citations?user=EO3T3N0AAAAJ&hl=en" role="button"><i class="fas fa-graduation-cap" aria-label="Google Scholar"></i></a>
             <a class="link-icon" href="http://linkedin.com/in/johannwentzel" role="button"><i class="fab fa-linkedin" aria-label="LinkedIn"></i></a>
             <a class="link-icon" href="http://twitter.com/JohannWentzel" role="button"><i class="fab fa-twitter" aria-label="Twitter"></i></a>
             <a class="link-icon" href="https://hci.social/@johann" role="button"><i class="fa-brands fa-mastodon"></i></a>

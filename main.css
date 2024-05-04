@@ -196,7 +196,7 @@ a{
 }
 
 .item-row {
-    padding-bottom: 15px;
+    /* padding-bottom: 25px; */
     display: flex;
     align-items: center;
 }
@@ -250,11 +250,6 @@ a{
     margin-top: 50px;
 }
 
-.company-logo{
-    max-width:120px;
-    margin:10px;
-    height: auto;
-}
 
 .shiftup{
     top:-15px;
@@ -282,20 +277,15 @@ a{
     transition: all 0.5s ease;
 }
 
-.width200 {
-    width: 200px;
-}
+
 
 .research-img{
-    /* width:50%; */
-    max-width: 150px;
-    /* object-fit: fill; */
+    width:100%;
+    aspect-ratio: 16/9;
+    max-width: 300px;
+    object-fit: cover;
 }
 
-.project-card {
-    margin: auto;
-    width: 60%;
-}
 
 .timeline object{
     margin-top:40px;
