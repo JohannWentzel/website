@@ -102,7 +102,7 @@ a{
     max-width:350px;
     max-height:350px;
     /* vertical-align: bottom; */
-    object-fit:scale-down;
+    object-fit:cover;
 }
 
 .headshot-narrow {
