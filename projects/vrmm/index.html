@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0HYD17X5H"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-H0HYD17X5H');
+        </script>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Research from Waterloo HCI: Comparing VR Menu Techniques.">
+        <meta name="keywords" content="VR, AR, spatial computing, raycasting, direct input, marking menus, UI research">
+        <meta name="author" content="Johann Wentzel, Matthew Lakier, Jeremy Hartmann, Falah Shazib, Géry Casiez, Daniel Vogel">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta property="og:title" content="A Comparison of Virtual Reality Menu Archetypes: Raycasting, Direct Input, and Marking Menus">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="Research from Waterloo HCI: Comparing VR Menu Techniques.">
+        <meta property="og:url" content="http://johannwentzel.ca/projects/vrmm/index.html">
+        <meta property="og:image" content="http://johannwentzel.ca/projects/vrmm/img/video-screenshot.jpg">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@johannwentzel">
+        <meta name="twitter:creator" content="@johannwentzel">
+        <meta name="twitter:title" content="A Comparison of Virtual Reality Menu Archetypes: Raycasting, Direct Input, and Marking Menus">
+        <meta name="twitter:description" content="Research from Waterloo HCI: Comparing VR Menu Techniques.">
+        <meta name="twitter:image" content="http://johannwentzel.ca/projects/vrmm/img/video-screenshot.jpg">
+        <title>A Comparison of Virtual Reality Menu Archetypes: Raycasting, Direct Input, and Marking Menus</title>
+        <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> --><!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="./main.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700&display=swap" rel="stylesheet">        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        
+        <script src="./scripts.js"></script>
+        
+        
+    </head>
+    <body>
+        <div id="header" class="col-lg-10 col-sm-12 offset-lg-1 offset-sm-0">
+            <p class="title col-12">A Comparison of Virtual Reality Menu Archetypes: Raycasting, Direct Input, and Marking Menus</p>
+            <p class="authors col-12"><a href="http://johannwentzel.ca">Johann Wentzel</a>, <a href="https://matthewlakier.com/">Matthew Lakier</a>, <a href="https://www.jjhartmann.org/">Jeremy Hartmann</a>, <a href="http://falahshazib.com/">Falah Shazib</a>, <a href="https://gery.casiez.net/">Géry Casiez</a>, <a href="https://www.nonsequitoria.com/">Daniel Vogel</a></p>
+            <p class="authors col-12">TVCG 2024</p>
+            <div id="logos" class="p-0 col-12">
+                <img class="logo col-4 col-xl-2" src="img/wathci.png">
+                <img class="logo col-3 col-xl-2" src="img/inr_logo_blanc.png">
+            </div>
+            <br>
+            <div class="d-inline-flex flex-row col-12">
+                <a class="p-2 download-link rounded" href="files/Wentzel_TVCG.pdf">Preprint (PDF)</a>
+            </div>
+        </div>
+        <div id="content" class="col-lg-10 col-xs-12 offset-lg-1">
+            <div id="teaserfigure" class="col-lg-10 offset-lg-1 col-xs-12">
+                <img class="figure img-fluid" src="img/fig-games-compressed.png">
+            </div>
+
+            <div id="teaser" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
+                <blockquote>
+                    We evaluated raycasting, direct input, and marking menus in VR, finding raycasting most common in commercial use. Experiments showed direct input was the fastest overall, marking menus excelled in small menus, and raycasting was the most user-friendly. Marking menus are best for small menus, direct input for larger ones, and raycasting for more user-friendliness.</blockquote>
+            </div>
+
+            <div id="findings" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
+                <h1>Key Takeaways</h1>
+                <div class="row">
+                    <!-- add col-xl-6 below when video is ready -->
+                    
+                    <div class="col-xl-6 offset-xl-0 col-xs-12">
+                <ol class="findings-row">
+                    <li class="findings-text">We surveyed <b>108 VR menus</b> from 84 consumer applications to identify common design characteristics.</li>
+                    <li class="findings-text">Three menu techniques—<b>raycasting</b>, <b>direct input</b>, and <b>marking menus</b>—were selected for detailed evaluation based on their prevalence and performance.</li>
+                    <li class="findings-text">We conducted <b>two experiments</b> to compare these menu types in terms of speed, accuracy, and usability with different menu sizes and hierarchical levels.</li>
+                    <li class="findings-text">The experiments showed that <b>direct input</b> was the fastest, <b>marking menus</b> were efficient with small item sets, and <b>raycasting</b> was the most user-friendly.</li>      
+                    <li class="findings-text">Based on these results, we provided <b>design recommendations</b> for VR menu implementations, emphasizing different techniques for different use cases.</li>      
+                </ol>
+            </div>
+
+            <div class="col-xl-6 offset-xl-0 col-xs-12">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item video" src="https://www.youtube.com/embed/PqZ9Je4l1WA?si=K0Exz-42nfGoDxky" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+
+            <div id="abstract" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
+                <h1>Abstract</h1>
+                <p>We contribute an analysis of the prevalence and relative performance of archetypal VR menu techniques. An initial survey of 108 menu interfaces in 84 popular commercial VR applications establishes common design characteristics. These characteristics motivate the design of raycast, direct, and marking menu archetypes, and a two-experiment comparison of their relative performance with one and two levels of hierarchy using 8 or 24 items. With a single-level menu, direct input is the fastest interaction technique in general, and is unaffected by number of items. With a two-level hierarchical menu, marking is fastest regardless of item number. Menus using raycasting, the most common menu interaction technique, were among the slowest of the tested menus but were rated most consistently usable. Using the combined results, we provide design and implementation recommendations with applications to general VR menu design.</p>
+            </div>
+
+            <div id="formative-study" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
+                <h1>VR Menus in Consumer Games</h1>
+                <p>
+                    We looked at 108 VR menus from 84 popular apps and found that raycasting is the most common method, with direct input coming next. Marking menus, while effective in research, are not used as much in commercial VR. We concentrated on menus that use controllers because they are the most common, leaving out newer hand-tracking methods. This helped us choose which menu types to study further.
+                </p>
+                <img class="figure col-12 img-fluid mx-auto d-block" src="img/table-detailedpercentages.png">
+                <p class="caption">Counts and proportions of variations in design characteristics for 108 spatial menus used in popular VR applications.
+                </p>
+
+                <p>We also examined the most common combinations of menu characteristics.</p>
+
+                <img class="figure col-xl-6 offset-xl-3 col-8 img-fluid mx-auto d-block" src="img/table-combos.png">
+                <p class="caption">The top 10 combinations of anchoring, item layout, number of items, and interaction technique found in the game survey.
+                </p>
+
+
+            </div>
+            <div id="Techniques" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
+                <h1>Archetypes</h1>
+                <p>
+                    We evaluated three VR menu techniques: <b>raycasting, direct input, and marking menus</b>. We combined those with two menu sizes (8 and 24 items) to create six menu archetypes. Raycast menus were anchored in world-space, while direct input and marking menus were controller-based. 
+                </p>
+                <img class="figure col-xl-8 offset-xl-2 col-12 img-fluid mx-auto d-block" src="img/techs-2x3-new.png">
+                <p class="caption">The six menu types used in the study: (a) raycasting with 8 items in a linear layout; (b) raycasting with 24 items in a grid layout; (c) direct input with 8 items in a linear layout; (d) direct input with 24 items in a grid layout; (e) marking with 8 items in a 2D radial layout; and (f) marking with 24 items in a 3D spherical layout.
+                </p>
+
+
+
+            </div>
+            <div id="experiment" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
+                <h1>Experiment 1</h1>
+                <p>
+                    We recruited <b>18 remote participants</b>, ensuring they had access to VR headsets with hand controllers. The experiment compared single-level menus with 8 and 24 items, using raycasting, direct input, and marking techniques. Participants completed selection tasks, and we measured trial time, error rate, hand movement distance, and usability using the System Usability Scale (SUS).
+                </p>
+                <h2>Conditions</h2>
+                <p>
+                    The experiment tested combinations of menu size (8 and 24 items) and interaction technique (raycasting, direct input, marking). Each participant experienced all conditions in a randomized order.
+                </p>
+                <h2>Results</h2>
+                <p>
+                    Direct input was the fastest overall, unaffected by menu size. Marking menus were fast with 8 items but slowed significantly with 24 items. Raycasting was the slowest but received the highest usability ratings. These results highlight the trade-offs between speed and user preference across different menu types.
+                </p>
+
+                <img class="figure col-xl-10 offset-xl-1 col-12 img-fluid mx-auto d-block" src="img/exp2-combined.png">
+
+
+            </div>
+            <div id="experiment2" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
+                <h1>Experiment 2</h1>
+                <p>
+                    We recruited 18 participants, six of whom had also participated in the first experiment after a 12-month gap. This experiment focused on two-level hierarchical menus with 8 and 24 items per level. Similar to Experiment 1, we measured trial time, error rate, hand movement distance, and usability.
+                </p>
+                <h2>Conditions</h2>
+                <p>
+                    Participants were asked to complete selection tasks in hierarchical menus using raycasting, direct input, and marking techniques. The task involved making selections across two menu levels, with performance metrics recorded for each condition.
+                </p>
+                <h2>Results</h2>
+                <p>
+                    Marking menus were the fastest in hierarchical conditions, regardless of item count. Direct input maintained high usability and performance, particularly for larger item sets. Raycasting remained slower but was consistently rated as user-friendly. These findings indicate that marking menus excel in complex tasks but may need usability improvement at higher numbers of items.
+                </p>
+
+                <img class="figure col-xl-10 offset-xl-1 col-12 img-fluid mx-auto d-block" src="img/exp3-combined.png">
+            </div>
+            <div id="disc" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
+                <h1>What Can We Learn?</h1>
+                <ol>
+                    <li>Implement <b>direct input</b> menus for <b>fast and efficient interaction</b>, especially when dealing with larger item sets.</li>
+                    <li>Use <b>raycasting</b> for menus where <b>ease of use</b> and <b>user-friendliness</b> are the main priorities.</li>
+                    <li>Opt for <b>marking menus</b> in scenarios with <b>small item counts</b> to take advantage of their performance benefits.</li>
+                    <li>Consider <b>user comfort</b> and <b>minimal movement</b> when designing for longer VR sessions, which makes raycasting a good choice.</li>
+                    <li>Balance <b>speed and usability</b> by combining techniques: use marking menus for quick selections in small sets and direct input for more extensive, detailed interactions.</li>
+                </ol>
+            </div>
+
+
+                
+           
+
+
+
+            <div id="publication" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
+                <h1>Publication</h1>
+                <p>J. Wentzel, M. Lakier, J. Hartmann, F. Shazib, G. Casiez and D. Vogel, <b>"A Comparison of Virtual Reality Menu Archetypes: Raycasting, Direct Input, and Marking Menus,"</b> in IEEE Transactions on Visualization and Computer Graphics, doi: 10.1109/TVCG.2024.3420236. keywords: {virtual reality;interaction techniques;menus;direct input;raycasting;marking menu}</p>
+            
+                <h2>BibTeX</h2>
+            	<pre>
+	            	<code>@ARTICLE{10577478,<br>   author = {Wentzel, Johann and Lakier, Matthew and Hartmann, Jeremy and Shazib, Falah and Casiez, Géry and Vogel, Daniel},<br>   journal = {IEEE Transactions on Visualization and Computer Graphics}, <br>   title = {A Comparison of Virtual Reality Menu Archetypes: Raycasting, Direct Input, and Marking Menus},<br>   year = {2024},<br>   keywords = {virtual reality;interaction techniques;menus;direct input;raycasting;marking menu},<br>   volume = {},<br>   number = {},<br>   doi = {10.1109/TVCG.2024.3420236},<br>   pages = {1-15}<br>}</code>
+                </pre>
+                <div class="copy-button">
+                    <span id="copied-text">Copied!</span>
+                    <a href="javascript:copyToClipboard();">
+                        <i class="far fa-copy" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div> 
+
+            
+
+            <div id="contact" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
+                <h1>Contact Us</h1>
+                <p>Questions? Feel free to contact:</p>
+                <ul>
+                    <li><strong>Johann Wentzel </strong>(University of Waterloo) <br>jdwentze [at] uwaterloo.ca</li>
+                    <li><strong>Matthew Lakier </strong> (University of Waterloo) <br>matthew.lakier [at] uwaterloo.ca</li>
+                    <li><strong>Jeremy Hartmann </strong> (University of Waterloo) <br>jeremy.hartmann [at] uwaterloo.ca</li>
+                    <li><strong>Falah Shazib </strong> (University of Waterloo) <br>fshazib [at] uwaterloo.ca</li>
+                    <li><strong>Géry Casiez</strong> (Université de Lille) <br>gery.casiez [at] univ-lille.fr</li>
+                    <li><strong>Daniel Vogel </strong> (University of Waterloo) <br>dvogel [at] uwaterloo.ca</li>
+                </ul>
+            </div>
+            
+        </div>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    </body>
+</html>
