@@ -102,18 +102,17 @@
                 <path d="M7.27863015,0.0885821092 C7.15047944,-0.0295273697 6.94029223,-0.0295273697 6.81205799,0.0885821092 L2.67372582,3.90040203 C2.54549157,4.01851151 2.3353879,4.01851151 2.20715365,3.90040203 L1.18787936,2.96168175 C1.05964511,2.84357227 0.849541442,2.84357227 0.721307196,2.96168175 L0.0961756851,3.53776361 C-0.0320585617,3.65587309 -0.0320585617,3.84938797 0.0961756851,3.96749745 L2.20715365,5.91141789 C2.3353879,6.02952737 2.54549157,6.02952737 2.67372582,5.91141789 L7.90376166,1.09409004 C8.03207945,0.975903614 8.03207945,0.78246568 7.90376166,0.664279256 L7.27863015,0.0885821092 Z" id="Path"></path>
             </g>
         </g>
-        <g id="Group-10" transform="translate(577.000000, 26.000000)" fill="#0091FF">
-            <rect id="Rectangle-Copy-13" x="0" y="15" width="40" height="10"></rect>
-            <rect id="Rectangle-Copy-14" fill-opacity="0.2" x="98" y="15" width="47" height="10"></rect>
-            <rect id="Rectangle-Copy-35" fill-opacity="0.2" x="40" y="15" width="26" height="10"></rect>
-            <rect id="Rectangle-Copy-38" x="145" y="15" width="63" height="10"></rect>
-            <rect id="Rectangle-Copy-37" x="66" y="15" width="32" height="10"></rect>
-            <rect id="Rectangle-Copy-17" fill-opacity="0.2" x="208" y="15" width="40" height="10"></rect>
-            <text id="PhD,-Computer-Scienc" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal">
+        <g id="Group-10" transform="translate(577.000000, 26.000000)">
+            <rect id="Rectangle-Copy-13" fill="#0091FF" x="0" y="15" width="40" height="10"></rect>
+            <rect id="Rectangle-Copy-14" fill-opacity="0.2" fill="#0091FF" x="98" y="15" width="47" height="10"></rect>
+            <rect id="Rectangle-Copy-35" fill-opacity="0.2" fill="#0091FF" x="40" y="15" width="26" height="10"></rect>
+            <rect id="Rectangle-Copy-38" fill="#0091FF" x="145" y="15" width="118" height="10"></rect>
+            <g id="noun_Check-Mark_10734" transform="translate(252.000000, 17.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M7.27863015,0.0885821092 C7.15047944,-0.0295273697 6.94029223,-0.0295273697 6.81205799,0.0885821092 L2.67372582,3.90040203 C2.54549157,4.01851151 2.3353879,4.01851151 2.20715365,3.90040203 L1.18787936,2.96168175 C1.05964511,2.84357227 0.849541442,2.84357227 0.721307196,2.96168175 L0.0961756851,3.53776361 C-0.0320585617,3.65587309 -0.0320585617,3.84938797 0.0961756851,3.96749745 L2.20715365,5.91141789 C2.3353879,6.02952737 2.54549157,6.02952737 2.67372582,5.91141789 L7.90376166,1.09409004 C8.03207945,0.975903614 8.03207945,0.78246568 7.90376166,0.664279256 L7.27863015,0.0885821092 Z" id="Path"></path>
+            </g>
+            <rect id="Rectangle-Copy-37" fill="#0091FF" x="66" y="15" width="32" height="10"></rect>
+            <text id="PhD,-Computer-Scienc" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#0091FF">
                 <tspan x="5.62695312" y="9">PhD, Computer Science (Human-Computer Interaction)</tspan>
-            </text>
-            <text id="Expected-Oct-2024" font-family="Roboto-Regular, Roboto" font-size="7" font-weight="normal">
-                <tspan x="189.35791" y="35">Expected Oct 2024</tspan>
             </text>
         </g>
         <g id="Group-6" transform="translate(392.000000, 74.000000)">
