@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0HYD17X5H"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-H0HYD17X5H');
+        </script>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Research from Waterloo HCI: Context-Aware Peeking between VR and Desktop.">
+        <meta name="keywords" content="VR, AR, spatial computing, desktop, transitional interfaces">
+        <meta name="author" content="Johann Wentzel, Alessandra Luz, Martez Mott, Daniel Vogel">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta property="og:title" content="MotionBlocks: Modular Geometric Motion Remapping for More Accessible Upper Body Movement in Virtual Reality">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="Research from Waterloo HCI: Geometric Remapping for VR Accessibility.">
+        <meta property="og:url" content="http://johannwentzel.ca/projects/motionblocks/index.html">
+        <meta property="og:image" content="http://johannwentzel.ca/projects/motionblocks/img/video-screenshot.jpg">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@johannwentzel">
+        <meta name="twitter:creator" content="@johannwentzel">
+        <meta name="twitter:title" content="MotionBlocks: Modular Geometric Motion Remapping for More Accessible Upper Body Movement in Virtual Reality">
+        <meta name="twitter:description" content="Research from Waterloo HCI: Geometric Remapping for VR Accessibility.">
+        <meta name="twitter:image" content="http://johannwentzel.ca/projects/motionblocks/img/video-screenshot.jpg">
+        <title>MotionBlocks: Modular Geometric Motion Remapping for More Accessible Upper Body Movement in Virtual Reality</title>
+        <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> --><!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="./main.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700&display=swap" rel="stylesheet">        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        
+        <script src="./scripts.js"></script>
+        
+        
+    </head>
+    <body>
+        <div id="header" class="col-lg-10 col-sm-12 offset-lg-1 offset-sm-0">
+            <p class="title col-12">MotionBlocks: Modular Geometric Motion Remapping for More Accessible Upper Body Movement in Virtual Reality</p>
+            <p class="authors col-12"><a href="http://johannwentzel.ca">Johann Wentzel</a>, <a href="https://aleluz.com">Alessandra Luz</a>, <a href="http://www.martezmott.com/">Martez Mott</a>, <a href="https://www.nonsequitoria.com/">Daniel Vogel</a></p>
+            <p class="authors col-12">CHI 2025</p>
+            <div id="logos" class="p-0 col-12">
+                <img class="logo col-3 col-xl-2" src="img/wathci.png">
+                <img class="logo col-3 col-xl-2" src="img/ms-logo-white.png">
+            </div>
+            <br>
+            <!-- <div class="d-inline-flex flex-row col-12">
+                <a class="p-2 download-link rounded" href="files/switchspace-chi24.pdf">Paper (PDF)</a>
+                <a class="p-2 download-link rounded" href="files/SwitchSpace CHI2024 Talk.pdf">Slides (PDF)</a>
+            </div> -->
+        </div>
+        <div id="content" class="col-lg-10 col-xs-12 offset-lg-1">
+            <div id="teaserfigure" class="col-lg-10 offset-lg-1 col-xs-12">
+                <img class="figure img-fluid" src="img/teaser.jpg">
+            </div>
+
+            <div id="teaser" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
+                <blockquote>Spatial computing often demands more motion than someone with limited mobility can supply. <i>MotionBlocks</i> uses geometric primitives to remap their comfortable range of motion into that required for a given spatial application.</blockquote>
+            </div>
+
+            <div id="findings" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
+                <h1>Key Takeaways</h1>
+                <div class="row">
+                    <div class="col-xl-6 offset-xl-0 col-xs-12">
+                        <ol class="findings-row">
+                            <li class="findings-text">Many VR applications assume a standard range of motion, creating <b>accessibility barriers</b> for users with mobility limitations.</li>
+                            <li class="findings-text">Using <b>motion primitives</b>—geometric representations of movement—enables customizable remapping of physical motions to virtual interactions.</li>
+                            <li class="findings-text">Allowing users to <b>customize and remap their physical motion</b> can reduce physical effort and improve usability.</li>
+
+                     
+                        </ol>
+                    </div>
+
+                    <div class="col-xl-6 offset-xl-0 col-xs-12">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item video" src="https://www.youtube.com/embed/ZD122c1Z31M?si=SSOveGEzawlh2C20" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+
+            <div id="abstract" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
+                <h1>Abstract</h1>
+                <p>Movement-based spatial interaction in VR can present significant challenges for people with limited mobility, particularly due to the mismatch between the upper body motion a VR app requires and the user's capabilities. We describe MotionBlocks, an approach which enables 3D spatial input with smaller motions or simpler input devices using modular geometric motion remapping. A formative study identifies common accessibility issues within VR motion design, and informs a design language of VR motions that fall within simple geometric primitives. These 3D primitives enable collapsing spatial or non-spatial input into a normalized input vector, which is then expanded into a second 3D primitive representing larger, more complex 3D motions. An evaluation with people with mobility limitations found that using geometric primitives for highly customized upper body input remapping reduced physical workload, temporal workload, and perceived effort.</p>
+            </div>
+
+            <div id="formative-study" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
+                <h1>Formative Study</h1>
+                <p>In our formative study, we worked with 10 people with mobility limitations to understand the challenges they face in VR. We had them try different VR applications and observed how the experience worked—or didn’t work—for them. It quickly became clear that many VR games and experiences assume a standard range of motion that not everyone has. Simple actions like reaching for a menu, dodging obstacles, or even just holding a controller could be frustrating or impossible. These challenges highlighted a major gap in VR accessibility and the need for customizable ways to adapt controls to different abilities.</p>
+
+                <p>Key challenges included:</p>
+                <ul>
+                    <li><b>Reaching and large arm movements</b> – Many users couldn’t comfortably extend their arms or make wide gestures.</li>
+                    <li><b>Balance and body movement</b> – Dodging, crouching, and leaning were difficult, especially for seated users.</li>
+                    <li><b>Two-handed interactions</b> – Some struggled with games that required both hands or precise grip strength.</li>
+                    <li><b>Controller and button use</b> – Limited dexterity made pressing buttons or holding controllers uncomfortable.</li>
+                    <li><b>Headset fit and setup time</b> – Adjusting the headset and getting started took extra effort for many users.</li>
+                </ul>
+
+                <p>These findings made it clear that for VR to be truly inclusive, it needs more flexible input options that adapt to each user’s abilities.</p>
+
+                
+            </div>
+
+            <div id="Techniques" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
+                <h1>MotionBlocks</h2>
+                <p>Based on what we learned, we developed <b>MotionBlocks</b>, a system that makes VR more accessible by adapting controls to each user’s abilities. Instead of forcing users to conform to a fixed way of moving, MotionBlocks allows them to customize how their real-world movements translate into VR.</p>
+                
+
+                
+                <h2>Motion Primitives</h2>
+                <p>Based on the movements participants wanted to make in the formative study, we created a set of <b>motion primitives</b>—simple geometric shapes that represent different types of motion. These primitives can be combined and customized to create a wide range of interactions.</p>
+                
+                <img class="figure col-xl-10 offset-xl-1 col-12 img-fluid mx-auto d-block" src="img/chi25-750-fig5.jpg">
+
+                
+                
+                <p>We found six motion primitives that covered the range of motions users wanted to make:</p>
+                <ul>
+                    <li><b>Line</b> – 1-dimensional translation toward an object.</li>
+                    <li><b>Arc</b> – 1-dimensional rotation around a central point.</li>
+                    <li><b>Point</b> – 2-dimensional rotation, without translation.</li>
+                    <li><b>Plane</b> – Bounded 2-dimensional translation.</li>
+                    <li><b>Hemisphere</b> – 2D rotation around a central point and a given radius.</li>
+                    <li><b>Sphere</b> – 3D translation from a starting position.</li>
+                </ul>
+
+                <h2>How Motion Remapping Works</h2>
+                <p>MotionBlocks transforms physical movements into virtual actions by mapping motion between <b>control space</b> (where the user can comfortably move) and <b>transfer space</b> (the range of motion required by the application). This is done using an <b>input vector</b>, which captures movement within a control-space motion primitive and translates it into a corresponding transfer-space motion primitive in VR.</p>
+
+                <p>Each motion primitive produces a normalized input vector that represents movement direction and scale. This vector allows any small, comfortable motion to be amplified or adjusted to match the application's expected input. For example, a user’s small hand motion along a <i>plane</i> near their lap can be mapped to a large swiping action in a <i>hemisphere</i> in VR, reducing physical strain while maintaining full functionality.</p>
+
+                <p>Additionally, because the input vector is standardized, it enables flexible remapping across different interaction types. Users can replace spatial motions with alternative inputs, such as using a joystick to control a hand movement or a mouse to simulate head rotations. This modular design makes VR interaction more accessible and customizable to individual needs.</p>
+
+
+                <img class="figure col-xl-10 offset-xl-1 col-12 img-fluid mx-auto d-block" src="img/chi25-750-fig4.jpg">
+                <p class="caption">General overview of how the system works. In addition to remapping movement spaces, the modular design also enables the use of traditional input devices like joysticks and mice instead of a transfer-space motion primitive.</p>
+
+
+            </p>
+                
+
+            </div>
+
+            <div id="experiment" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
+                
+                <h1>User Study</h1>  
+                <p>To see how MotionBlocks improves VR accessibility, we conducted a user study with 8 participants from our formative study. Each participant configured their own motion remapping setup using <b>motion primitives</b> and tested it across different VR applications. We compared their performance and experience with and without MotionBlocks enabled.</p>  
+                
+                <p>Key qualitative findings from the experiment:</p>  
+                <ul>  
+                    <li><b>Reduced Physical Effort</b> – MotionBlocks significantly lowered physical strain, making VR interactions more comfortable.</li>  
+                    <li><b>Increased Reach and Precision</b> – Users could perform actions like grabbing objects or selecting menus more easily by mapping small movements to larger virtual actions.</li>  
+                    <li><b>Better Head and Body Movement</b> – Remapping allowed users to lean, dodge, and look around with less effort, improving gameplay and navigation.</li>  
+                    <li><b>One-Handed Usability</b> – Participants who struggled with two-handed interactions successfully played games using one hand and a joystick.</li>  
+                    <li><b>Adaptability Across Applications</b> – Users customized their motion settings for each game, showing that MotionBlocks works across different VR experiences.</li>  
+                </ul>  
+                
+                <img class="figure col-xl-10 offset-xl-1 col-12 img-fluid mx-auto d-block" src="img/chi25-750-fig7.jpg">
+                <p class="caption">Examples of control-space motion primitive configurations. (a) Point primitives tracking 2D wrist rotation; (b) Plane primitives tracking 2D translation forward and sideways across the user's lap; (c) Sphere primitives tracking smaller, more comfortable 3D movements of the head and hands; (d) A Sphere primitive tracking motion in the right hand, mapped to a transfer-space primitive as normal, but additionally the joystick in the right controller provides input to a transfer-space Hemisphere (orange) for the left hand, enabling two-handed input.</p>
+
+
+                <h2>NASA-TLX Results</h3>  
+                <p>To evaluate how MotionBlocks improved the VR experience, we used the <b>NASA Task Load Index (NASA-TLX)</b>, a standard measure of workload in human-computer interaction. After using VR with and without MotionBlocks, participants rated their experience across six categories: Mental Demand, Physical Demand, Temporal Demand, Performance, Effort, and Frustration.</p>  
+                
+                <p>Key results from the NASA-TLX analysis:</p>  
+                <ul>  
+                    <li><b>Lower Physical Demand</b> – MotionBlocks significantly reduced physical strain, making interactions less tiring.</li>  
+                    <li><b>Less Temporal Pressure</b> – Users felt less rushed and more in control of their actions.</li>  
+                    <li><b>Reduced Effort</b> – Participants found VR tasks easier to complete with customized motion mappings.</li>  
+                    <li><b>Consistent Performance</b> – Despite changing their input method, users maintained accuracy and effectiveness.</li>  
+                    <li><b>No Increase in Mental Load</b> – Even with new interaction techniques, users didn’t feel overwhelmed or confused.</li>  
+                </ul>  
+                
+                <p>These results show that MotionBlocks made VR more accessible without adding cognitive strain, proving that customizable motion remapping can improve usability, comfort, and overall experience for people with mobility limitations.</p>
+                
+
+            </div>
+
+            <div id="disc" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
+                <h1>What Can We Learn?</h1>
+                <ol>  
+                    <li><b>VR Assumes a Standard Range of Motion</b> – Many VR applications unintentionally exclude users with limited mobility by requiring large movements, two-handed interactions, or precise button presses.</li>  
+                    <li><b>Geometric Motion Primitives Enable Accessibility</b> – Breaking movements into basic shapes (lines, arcs, planes, etc.) allows users to remap controls to fit their physical abilities.</li>  
+                    <li><b>Customization is Key</b> – There is no single solution for accessibility; letting users configure how they interact with VR improves comfort and usability.</li>  
+                    <li><b>Reducing Physical Effort Improves Experience</b> – Motion remapping significantly reduces strain, making VR more enjoyable for those with mobility limitations.</li>  
+                    <li><b>Better Interaction Design Benefits Everyone</b> – While MotionBlocks focuses on accessibility, its custom motion remapping can also help users in small spaces, reduce fatigue, and improve overall ergonomics.</li>  
+                </ol>
+            </div>
+
+            <!-- <div id="publication" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
+                <h1>Publication</h1>
+                <p>Johann Wentzel, Fraser Anderson, George Fitzmaurice, Tovi Grossman, and Daniel Vogel. 2024. <b>SwitchSpace: Understanding Context-Aware Peeking Between VR and Desktop Interfaces</b>. In CHI Conference on Human Factors in Computing Systems (CHI ’24). Association for Computing Machinery, New York, NY, USA, Article 4, 1–16. <a class="doi-url" href="https://doi.org/10.1145/3613904.3642358">https://doi.org/10.1145/3613904.3642358</a></p>
+                <br>
+                <h2>BibTeX</h2>
+            	<pre>
+	            	<code>@inproceedings{Wentzel2024,<br>   author = {Wentzel, Johann and Anderson, Fraser and Fitzmaurice, George and Grossman, Tovi and Vogel, Daniel},<br>   title = {SwitchSpace: Understanding Context-Aware Peeking Between VR and Desktop Interfaces},<br>   year = {2024},<br>   isbn = {9798400703300},<br>   publisher = {Association for Computing Machinery},<br>   address = {New York, NY, USA},<br>   url = {https://doi.org/10.1145/3613904.3642358},<br>   doi = {10.1145/3613904.3642358},<br>   booktitle = {CHI Conference on Human Factors in Computing Systems},<br>   numpages = {16},<br>   location = {Honolulu, HI, USA},<br>   series = {CHI '24}<br>}</code>
+                </pre>
+                <div class="copy-button">
+                    <span id="copied-text">Copied!</span>
+                    <a href="javascript:copyToClipboard();">
+                        <i class="far fa-copy" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>  -->
+
+            
+
+            <div id="contact" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
+                <h1>Contact Us</h1>
+                <p>Questions? Feel free to contact:</p>
+                <ul>
+                    <li><strong>Johann Wentzel </strong>(PhD graduate, University of Waterloo) <br>hello [at] johannwentzel.ca</li>
+                    <li><strong>Alessandra Luz </strong> (PhD candidate, University of Waterloo) <br>alessandra.luzlam [at] uwaterloo.ca</li>
+                    <li><strong>Martez Mott </strong> (Microsoft Research) <br>martez.mott [at] microsoft.com</li>
+                    <li><strong>Daniel Vogel </strong> (University of Waterloo) <br>dvogel [at] uwaterloo.ca</li>
+                </ul>
+            </div>
+            
+        </div>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    </body>
+</html>
