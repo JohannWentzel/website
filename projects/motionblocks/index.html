@@ -114,7 +114,7 @@
                 <p>Based on what we learned, we developed <b>MotionBlocks</b>, a system that makes VR more accessible by adapting controls to each user’s abilities. Instead of forcing users to conform to a fixed way of moving, MotionBlocks allows them to customize how their real-world movements translate into VR.</p>
                 
 
-                
+            
                 <h2>Motion Primitives</h2>
                 <p>Based on the movements participants wanted to make in the formative study, we created a set of <b>motion primitives</b>—simple geometric shapes that represent different types of motion. These primitives can be combined and customized to create a wide range of interactions.</p>
                 
@@ -133,9 +133,9 @@
                 </ul>
 
                 <h2>How Motion Remapping Works</h2>
-                <p>MotionBlocks transforms physical movements into virtual actions by mapping motion between <b>control space</b> (where the user can comfortably move) and <b>transfer space</b> (the range of motion required by the application). This is done using an <b>input vector</b>, which captures movement within a control-space motion primitive and translates it into a corresponding transfer-space motion primitive in VR.</p>
+                <p>MotionBlocks transforms physical movements into virtual actions by mapping motion between <b>control space</b> (where the user can comfortably move) and <b>transfer space</b> (the range of motion required by the application).</p>
 
-                <p>Each motion primitive produces a normalized input vector that represents movement direction and scale. This vector allows any small, comfortable motion to be amplified or adjusted to match the application's expected input. For example, a user’s small hand motion along a <i>plane</i> near their lap can be mapped to a large swiping action in a <i>hemisphere</i> in VR, reducing physical strain while maintaining full functionality.</p>
+                <p>Control-space motion primitives produce a <b>normalized input vector</b> that represents a given movement. This input vector is then expanded by the transfer-space motion primitive into the larger input the application expevts. Using an input vector allows any small, comfortable motion to be amplified or adjusted to match the application's expected input. For example, a user’s small hand motion along a <i>plane</i> near their lap can be mapped to a large swiping action in a <i>hemisphere</i> in VR, reducing physical strain while maintaining full functionality.</p>
 
                 <p>Additionally, because the input vector is standardized, it enables flexible remapping across different interaction types. Users can replace spatial motions with alternative inputs, such as using a joystick to control a hand movement or a mouse to simulate head rotations. This modular design makes VR interaction more accessible and customizable to individual needs.</p>
 
@@ -152,7 +152,7 @@
             <div id="experiment" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
                 
                 <h1>User Study</h1>  
-                <p>To see how MotionBlocks improves VR accessibility, we conducted a user study with 8 participants from our formative study. Each participant configured their own motion remapping setup using <b>motion primitives</b> and tested it across different VR applications. We compared their performance and experience with and without MotionBlocks enabled.</p>  
+                <p>To see how MotionBlocks improves VR accessibility, we conducted a user study with 8 participants from our formative study. Each participant configured their own motion remapping setup using motion primitives and tested it across different VR applications. We compared their performance and experience with and without MotionBlocks enabled.</p>  
                 
                 <p>Key qualitative findings from the experiment:</p>  
                 <ul>  
@@ -168,7 +168,7 @@
 
 
                 <h2>NASA-TLX Results</h3>  
-                <p>To evaluate how MotionBlocks improved the VR experience, we used the NASA-TLX to get more info. After using VR with and without MotionBlocks, participants rated their experience across six categories: Mental Demand, Physical Demand, Temporal Demand, Performance, Effort, and Frustration.</p>  
+                <p>We used the NASA-TLX to get more information about how MotionBlocks affected participants' VR experience. After using VR with and without MotionBlocks, participants rated their experience across six categories: Mental Demand, Physical Demand, Temporal Demand, Performance, Effort, and Frustration.</p>  
                 
                 <p>Key results from the NASA-TLX analysis:</p>  
                 <ul>  
@@ -184,16 +184,7 @@
 
             </div>
 
-            <div id="disc" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
-                <h1>What Can We Learn?</h1>
-                <ol>  
-                    <li><b>VR Assumes a Standard Range of Motion</b> – Many VR applications unintentionally exclude users with limited mobility by requiring large movements, two-handed interactions, or precise button presses.</li>  
-                    <li><b>Geometric Motion Primitives Enable Accessibility</b> – Breaking movements into basic shapes (lines, arcs, planes, etc.) allows users to remap controls to fit their physical abilities.</li>  
-                    <li><b>Customization is Key</b> – There is no single solution for accessibility; letting users configure how they interact with VR improves comfort and usability.</li>  
-                    <li><b>Reducing Physical Effort Improves Experience</b> – Motion remapping significantly reduces strain, making VR more enjoyable for those with mobility limitations.</li>  
-                    <li><b>Better Interaction Design Benefits Everyone</b> – While MotionBlocks focuses on accessibility, its custom motion remapping can also help users in small spaces, reduce fatigue, and improve overall ergonomics.</li>  
-                </ol>
-            </div>
+
 
             <!-- <div id="publication" class="col-lg-10 col-xs-12 offset-lg-1 content-section">
                 <h1>Publication</h1>
